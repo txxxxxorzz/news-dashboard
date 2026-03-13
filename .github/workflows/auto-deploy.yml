@@ -36,13 +36,18 @@ jobs:
       run: |
         python scripts/aggregate_news.py
     
+    - name: Copy to root news_data folder
+      run: |
+        mkdir -p news_data
+        cp web/news_data/latest.json news_data/latest.json
+    
     - name: Commit and push if changed
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add web/news_data/
+        git add news_data/ web/news_data/
         if ! git diff --quiet || ! git diff --staged --quiet; then
           git commit -m "Auto update news data [skip ci]"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main

@@ -11,7 +11,9 @@ from datetime import datetime
 # 输入输出目录
 SCRIPT_DIR = os.path.dirname(os.path.dirname(__file__))
 INPUT_FILE = os.path.join(SCRIPT_DIR, 'web', 'news_data', 'latest.json')
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, 'web', 'news_data', 'latest.json')
+# 输出两份：web/news_data/ 和 根目录 news_data/（GitHub Pages 访问）
+OUTPUT_FILE_WEB = os.path.join(SCRIPT_DIR, 'web', 'news_data', 'latest.json')
+OUTPUT_FILE_ROOT = os.path.join(SCRIPT_DIR, 'news_data', 'latest.json')
 
 def load_news():
     """加载原始新闻数据"""
@@ -159,13 +161,18 @@ def aggregate_to_platforms(data):
     return result
 
 def save_aggregated(data):
-    """保存聚合后的数据"""
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    """保存聚合后的数据到两个位置"""
+    # 保存到 web/news_data/
+    os.makedirs(os.path.dirname(OUTPUT_FILE_WEB), exist_ok=True)
+    with open(OUTPUT_FILE_WEB, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"✓ 聚合数据已保存到：{OUTPUT_FILE_WEB}")
     
-    print(f"✓ 聚合数据已保存到：{OUTPUT_FILE}")
+    # 保存到根目录 news_data/（GitHub Pages 访问）
+    os.makedirs(os.path.dirname(OUTPUT_FILE_ROOT), exist_ok=True)
+    with open(OUTPUT_FILE_ROOT, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"✓ 聚合数据已保存到：{OUTPUT_FILE_ROOT}")
 
 def main():
     print(f"\n🔄 开始聚合新闻数据 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
