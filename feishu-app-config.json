@@ -1,0 +1,27 @@
+# 飞书应用配置文件
+# 保存后在飞书开放平台导入
+
+{
+  "app_name": "热点情报中心",
+  "app_description": "实时聚合 NewsAPI、微博、Twitter、Reddit 等多平台热点情报",
+  "icon_url": "🔥",
+  "homepage_url": "https://your-vercel-domain.vercel.app",
+  
+  "pages": [
+    {
+      "page_name": "热点榜单",
+      "page_url": "https://your-vercel-domain.vercel.app",
+      "page_type": "web"
+    }
+  ],
+  
+  "permissions": [
+    "user:readonly"
+  ],
+  
+  "features": {
+    "pwa_enabled": true,
+    "offline_support": true,
+    "push_notifications": false
+  }
+}

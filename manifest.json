@@ -1,0 +1,26 @@
+{
+  "name": "热点情报中心",
+  "short_name": "热点情报",
+  "description": "实时热点情报聚合平台 - NewsAPI、微博、Twitter、Reddit 多平台聚合",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["news", "productivity"],
+  "lang": "zh-CN"
+}
