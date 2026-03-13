@@ -42,6 +42,25 @@ def format_time(time_str):
     except:
         return time_str
 
+def generate_ai_summary(platform_name, items):
+    """生成 AI 热点解读（简化版，实际可调用 AI API）"""
+    if not items:
+        return "暂无数据"
+    
+    # 提取关键词（简化版）
+    titles = [item.get('title', '') for item in items[:10]]
+    
+    # 简单分析
+    keywords = []
+    for title in titles:
+        # 提取 2-4 字的可能关键词
+        if len(title) > 4:
+            keywords.append(title[:15])
+    
+    if keywords:
+        return f"🔥 热门：{' | '.join(keywords[:5])}"
+    return "正在更新中..."
+
 def aggregate_to_platforms(data):
     """转换为前端需要的 platforms 格式"""
     platforms = {}
@@ -52,6 +71,7 @@ def aggregate_to_platforms(data):
         platforms["zhihu"] = {
             "name": "知乎热榜",
             "icon": "📚",
+            "aiSummary": generate_ai_summary("知乎", zhihu_items),
             "categories": {
                 "热榜": [
                     {
@@ -72,6 +92,7 @@ def aggregate_to_platforms(data):
         platforms["weibo"] = {
             "name": "微博热搜",
             "icon": "🔴",
+            "aiSummary": generate_ai_summary("微博", weibo_items),
             "categories": {
                 "热搜": [
                     {
@@ -82,6 +103,69 @@ def aggregate_to_platforms(data):
                         "id": f"weibo_{i}"
                     }
                     for i, item in enumerate(weibo_items[:20])
+                ]
+            }
+        }
+    
+    # 处理 B 站数据
+    bilibili_items = data.get("data", {}).get("bilibili", [])
+    if bilibili_items:
+        platforms["bilibili"] = {
+            "name": "B 站热门",
+            "icon": "📺",
+            "aiSummary": generate_ai_summary("B 站", bilibili_items),
+            "categories": {
+                "热门视频": [
+                    {
+                        "title": item.get("title", "")[:50],
+                        "url": item.get("url", "#"),
+                        "source": "B 站",
+                        "time": format_time(data.get("updateTime", "")),
+                        "id": f"bilibili_{i}"
+                    }
+                    for i, item in enumerate(bilibili_items[:20])
+                ]
+            }
+        }
+    
+    # 处理抖音数据
+    douyin_items = data.get("data", {}).get("douyin", [])
+    if douyin_items:
+        platforms["douyin"] = {
+            "name": "抖音热点",
+            "icon": "🎵",
+            "aiSummary": generate_ai_summary("抖音", douyin_items),
+            "categories": {
+                "热搜": [
+                    {
+                        "title": item.get("title", "")[:50],
+                        "url": item.get("url", "#"),
+                        "source": "抖音",
+                        "time": format_time(data.get("updateTime", "")),
+                        "id": f"douyin_{i}"
+                    }
+                    for i, item in enumerate(douyin_items[:20])
+                ]
+            }
+        }
+    
+    # 处理小红书数据
+    xiaohongshu_items = data.get("data", {}).get("xiaohongshu", [])
+    if xiaohongshu_items:
+        platforms["xiaohongshu"] = {
+            "name": "小红书热门",
+            "icon": "📕",
+            "aiSummary": generate_ai_summary("小红书", xiaohongshu_items),
+            "categories": {
+                "热门笔记": [
+                    {
+                        "title": item.get("title", "")[:50],
+                        "url": item.get("url", "#"),
+                        "source": "小红书",
+                        "time": format_time(data.get("updateTime", "")),
+                        "id": f"xiaohongshu_{i}"
+                    }
+                    for i, item in enumerate(xiaohongshu_items[:20])
                 ]
             }
         }

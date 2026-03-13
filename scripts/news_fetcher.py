@@ -175,30 +175,129 @@ def fetch_news_api():
         print(f"⚠ NewsAPI 获取失败：{e}")
         return []
 
-def fetch_reddit_hot():
-    """获取 Reddit 热门（无需 API Key）"""
+def fetch_bilibili_hot():
+    """获取 B 站热门"""
     try:
-        url = "https://www.reddit.com/hot.json?limit=20"
+        # 使用第三方 API
+        url = "https://api.pearktrue.cn/api/bilibili"
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        
+        items = []
+        for item in data.get('data', [])[:20]:
+            items.append({
+                "title": item.get('title', '')[:80],
+                "url": item.get('url', '#'),
+                "hot": f"🔥 {item.get('hot', 0)}",
+                "source": "B 站"
+            })
+        print(f"✓ B 站热门：{len(items)} 条")
+        return items
+    except Exception as e:
+        print(f"⚠ B 站获取失败：{e}")
+        # 备用方案：返回空数据
+        return []
+
+def fetch_douyin_hot():
+    """获取抖音热点"""
+    try:
+        # 使用公开的抖音热点 API
+        url = "https://www.douyin.com/aweme/v1/web/hot/search/list/"
         headers = {
-            "User-Agent": "News-Dashboard/1.0"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
         data = response.json()
         
         items = []
-        for child in data.get('data', {}).get('children', []):
-            post = child.get('data', {})
+        for item in data.get('data', {}).get('word_list', [])[:20]:
             items.append({
-                "title": post.get('title', '')[:100],
-                "url": f"https://reddit.com{post.get('permalink', '')}",
-                "hot": post.get('score', 0),
-                "source": "Reddit"
+                "title": item.get('word', '')[:60],
+                "url": f"https://www.douyin.com/hot/{item.get('sentence_id', '')}",
+                "hot": f"🔥 {item.get('hot_value', 0)}",
+                "source": "抖音"
             })
-        print(f"✓ Reddit 热门：{len(items)} 条")
+        print(f"✓ 抖音热点：{len(items)} 条")
         return items
     except Exception as e:
-        print(f"⚠ Reddit 获取失败：{e}")
+        print(f"⚠ 抖音获取失败：{e}")
+        # 备用方案
+        return fetch_douyin_backup()
+
+def fetch_douyin_backup():
+    """抖音备用方案 - 使用第三方 API"""
+    try:
+        # 尝试多个备用 API
+        urls = [
+            "https://api.pearktrue.cn/api/douyin",
+            "https://api.vvhan.com/api/hotlist/douyin",
+            "https://api.qqsuu.cn/api/dm-douyin"
+        ]
+        for url in urls:
+            try:
+                response = requests.get(url, timeout=8)
+                response.raise_for_status()
+                data = response.json()
+                
+                items = []
+                # 不同 API 返回格式不同
+                word_list = data.get('data', []) or data.get('result', []) or data.get('list', [])
+                for item in word_list[:20]:
+                    title = item.get('Word', '') or item.get('word', '') or item.get('title', '') or item.get('name', '')
+                    if title:
+                        items.append({
+                            "title": title[:60],
+                            "url": f"https://www.douyin.com/hot/{item.get('SentenceId', item.get('id', ''))}",
+                            "hot": f"🔥 {item.get('HotValue', item.get('hot', item.get('num', 0)))}",
+                            "source": "抖音"
+                        })
+                if items:
+                    print(f"✓ 抖音热点（备用 API）: {len(items)} 条")
+                    return items
+            except:
+                continue
+        
+        return []
+    except Exception as e:
+        print(f"⚠ 抖音备用失败：{e}")
+        return []
+
+def fetch_xiaohongshu_hot():
+    """获取小红书热门 - 使用第三方 API"""
+    try:
+        urls = [
+            "https://api.qqsuu.cn/api/dm-xhs",
+            "https://api.pearktrue.cn/api/xiaohongshu"
+        ]
+        for url in urls:
+            try:
+                response = requests.get(url, timeout=8)
+                response.raise_for_status()
+                data = response.json()
+                
+                items = []
+                word_list = data.get('data', []) or data.get('result', [])
+                for item in word_list[:20]:
+                    title = item.get('title', '') or item.get('word', '') or item.get('name', '')
+                    if title:
+                        items.append({
+                            "title": title[:60],
+                            "url": item.get('url', '#'),
+                            "hot": f"🔥 {item.get('num', item.get('hot', 0))}",
+                            "source": "小红书"
+                        })
+                if items:
+                    print(f"✓ 小红书热门：{len(items)} 条")
+                    return items
+            except:
+                continue
+        
+        print("⚠ 小红书暂无可用数据源")
+        return []
+    except Exception as e:
+        print(f"⚠ 小红书获取失败：{e}")
         return []
 
 def main():
@@ -207,9 +306,11 @@ def main():
     all_news = {
         "zhihu": fetch_zhihu_hot(),
         "weibo": fetch_weibo_hot(),
+        "bilibili": fetch_bilibili_hot(),
+        "douyin": fetch_douyin_hot(),
+        "xiaohongshu": fetch_xiaohongshu_hot(),
         "github": fetch_github_trending(),
-        "news": fetch_news_api(),
-        "reddit": fetch_reddit_hot()
+        "news": fetch_news_api()
     }
     
     # 添加元数据
@@ -218,9 +319,11 @@ def main():
         "sources": {
             "zhihu": len(all_news["zhihu"]),
             "weibo": len(all_news["weibo"]),
+            "bilibili": len(all_news["bilibili"]),
+            "douyin": len(all_news["douyin"]),
+            "xiaohongshu": len(all_news["xiaohongshu"]),
             "github": len(all_news["github"]),
-            "news": len(all_news["news"]),
-            "reddit": len(all_news["reddit"])
+            "news": len(all_news["news"])
         },
         "data": all_news
     }

@@ -241,6 +241,28 @@
             border-radius: 3px;
         }
 
+        .ai-summary {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(147, 51, 234, 0.15));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin: 0 15px 15px 15px;
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .ai-summary::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(135deg, var(--primary), #9333ea);
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+
         .category-header {
             display: flex;
             justify-content: space-between;
@@ -418,8 +440,11 @@
         <div class="platform-tab active" data-platform="all">🌐 全部</div>
         <div class="platform-tab" data-platform="zhihu">📚 知乎</div>
         <div class="platform-tab" data-platform="weibo">🔴 微博</div>
+        <div class="platform-tab" data-platform="bilibili">📺 B 站</div>
+        <div class="platform-tab" data-platform="douyin">🎵 抖音</div>
+        <div class="platform-tab" data-platform="xiaohongshu">📕 小红书</div>
         <div class="platform-tab" data-platform="github">💻 GitHub</div>
-        <div class="platform-tab" data-platform="newsapi">📰 科技新闻</div>
+        <div class="platform-tab" data-platform="newsapi">📰 科技</div>
     </div>
 
     <div class="container" id="mainContent">
@@ -501,6 +526,12 @@
                 html += '<span class="platform-icon">' + (platformData.icon || '📌') + '</span>';
                 html += '<span class="platform-name">' + (platformData.name || platformKey) + '</span>';
                 html += '</div>';
+                
+                // AI 解读
+                if (platformData.aiSummary) {
+                    html += '<div class="ai-summary">💡 ' + platformData.aiSummary + '</div>';
+                }
+                
                 html += '<div class="categories-grid">';
 
                 for (const [category, newsList] of Object.entries(platformData.categories || {})) {
