@@ -1,6 +1,288 @@
 {
-  "updateTime": "2026-03-13 11:57:09",
+  "updateTime": "2026-03-13 12:40:57",
   "platforms": {
+    "zhihu": {
+      "name": "知乎热榜",
+      "icon": "📚",
+      "categories": {
+        "热榜": [
+          {
+            "title": "司法部部长表示，今年将通过政府立法解决「内卷式」竞争，有哪些可行举措？",
+            "url": "https://www.zhihu.com/questions/2015510070532728752",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_0"
+          },
+          {
+            "title": "「上车前在车下绕行观察一圈」很多人都做不到，为什么科目一还要定这个规矩？",
+            "url": "https://www.zhihu.com/questions/667142976",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_1"
+          },
+          {
+            "title": "如果 0.01 纳米的一根线瞬间切割人体，可造成什么伤害？",
+            "url": "https://www.zhihu.com/questions/647127634",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_2"
+          },
+          {
+            "title": "委员称去机场比坐飞机时间还长，建议机场规划需考量功能定位，如何看待这一痛点？有哪些切实可行的解决办法",
+            "url": "https://www.zhihu.com/questions/2013541920610149458",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_3"
+          },
+          {
+            "title": "美国防部被曝「龙虾门」，花费 1500 万吃牛排、690 万吃龙虾尾，反映出哪些问题？将带来多大影响",
+            "url": "https://www.zhihu.com/questions/2015559616147247488",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_4"
+          },
+          {
+            "title": "伊朗称一架美军加油机被击落，美方称并非由敌方火力或友军误击造成，具体是怎么回事？目前伊朗防空能力如何",
+            "url": "https://www.zhihu.com/questions/2015691380442232507",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_5"
+          },
+          {
+            "title": "《龙珠》中同样是人造人，为什么十八号可以生孩子？",
+            "url": "https://www.zhihu.com/questions/551263470",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_6"
+          },
+          {
+            "title": "比亚迪携「车家互联」亮相 AWE 展，这项技术将给生活带来哪些颠覆性改变？",
+            "url": "https://www.zhihu.com/questions/2015526319295853907",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_7"
+          },
+          {
+            "title": "挥动一根无限长的杆子，那最远端会不会超越光速？",
+            "url": "https://www.zhihu.com/questions/11898570140",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_8"
+          },
+          {
+            "title": "万豪、洲际、凯悦三家旗下的五星级酒店分别有什么不同（入住后的区别）？",
+            "url": "https://www.zhihu.com/questions/324284376",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_9"
+          },
+          {
+            "title": "如何看待政协委员呼吁认可张益唐式「非线性」科研路径，给基础研究等学者设置差异化的评价周期与标准？",
+            "url": "https://www.zhihu.com/questions/2015391869291422954",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_10"
+          },
+          {
+            "title": "4 名儿童躺在公路上扮演减速带，路过司机回忆此景感到后怕，这反映了安全教育的哪些缺失？",
+            "url": "https://www.zhihu.com/questions/2015006537005933951",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_11"
+          },
+          {
+            "title": "《英雄联盟》海斗敌方的「当心小蛋糕」我提醒队友不要捡，他破防故意吃个不停，我说的到底有错吗？",
+            "url": "https://www.zhihu.com/questions/2015448707470944108",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_12"
+          },
+          {
+            "title": "杨瀚森已经统治发展联盟了，但为什么还是打不了几场 NBA 正赛？",
+            "url": "https://www.zhihu.com/questions/2015743069144757165",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_13"
+          },
+          {
+            "title": "阿里首席HR被曝回应林俊旸离职说「不能推上神坛」，怎么理解？反映了阿里对待技术灵魂人物的什么文化？",
+            "url": "https://www.zhihu.com/questions/2012922458819224399",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_14"
+          },
+          {
+            "title": "苹果公司宣布降低中国 App Store 佣金率，由 30% 改为 25%，会带来哪些影响？",
+            "url": "https://www.zhihu.com/questions/2015716459670626412",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_15"
+          },
+          {
+            "title": "美国财政部宣布将暂时放宽对部分俄罗斯石油的制裁，会对国际油价有怎样的影响？",
+            "url": "https://www.zhihu.com/questions/2015713289095574944",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_16"
+          },
+          {
+            "title": "从全球多品类市占登顶到春晚后持续领跑，再到 AWE「追觅宇宙」震撼亮相，如何看待追觅的爆发式增长？",
+            "url": "https://www.zhihu.com/questions/2015512554747745951",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_17"
+          },
+          {
+            "title": "美的推出搭载无风感的「宝宝空调」，号称能打造「黄金睡眠」，「宝宝定制家电」是真需求还是为焦虑买单？",
+            "url": "https://www.zhihu.com/questions/2015510180771692877",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_18"
+          },
+          {
+            "title": "竖屏市场格局突变，真人短剧项目骤减，AI 漫剧迎爆发式增长规模突破 200 亿，怎样看待未来发展趋势",
+            "url": "https://www.zhihu.com/questions/2012836051480178728",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_19"
+          }
+        ]
+      }
+    },
+    "weibo": {
+      "name": "微博热搜",
+      "icon": "🔴",
+      "categories": {
+        "热搜": [
+          {
+            "title": "逐玉",
+            "url": "https://s.weibo.com/weibo?q=逐玉",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_0"
+          },
+          {
+            "title": "7000元月薪种地不到一周已招满",
+            "url": "https://s.weibo.com/weibo?q=7000元月薪种地不到一周已招满",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_1"
+          },
+          {
+            "title": "绿色低碳发展迈入法典时代",
+            "url": "https://s.weibo.com/weibo?q=绿色低碳发展迈入法典时代",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_2"
+          },
+          {
+            "title": "张凌赫田曦薇头纱转场",
+            "url": "https://s.weibo.com/weibo?q=张凌赫田曦薇头纱转场",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_3"
+          },
+          {
+            "title": "华为回应15599元折叠屏用3天黑屏",
+            "url": "https://s.weibo.com/weibo?q=华为回应15599元折叠屏用3天黑屏",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_4"
+          },
+          {
+            "title": "随元青我恨你",
+            "url": "https://s.weibo.com/weibo?q=随元青我恨你",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_5"
+          },
+          {
+            "title": "被盗国保琉璃竟在闲鱼公开售卖",
+            "url": "https://s.weibo.com/weibo?q=被盗国保琉璃竟在闲鱼公开售卖",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_6"
+          },
+          {
+            "title": "这些两会好声音掷地有声",
+            "url": "https://s.weibo.com/weibo?q=这些两会好声音掷地有声",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_7"
+          },
+          {
+            "title": "警方通报女子从行驶中出租车跳下",
+            "url": "https://s.weibo.com/weibo?q=警方通报女子从行驶中出租车跳下",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_8"
+          },
+          {
+            "title": "取消家长护学岗让家校关系回归正轨",
+            "url": "https://s.weibo.com/weibo?q=取消家长护学岗让家校关系回归正轨",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_9"
+          },
+          {
+            "title": "张馨予因为减肥抵抗力下降",
+            "url": "https://s.weibo.com/weibo?q=张馨予因为减肥抵抗力下降",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_10"
+          },
+          {
+            "title": "爱奇艺股价",
+            "url": "https://s.weibo.com/weibo?q=爱奇艺股价",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_11"
+          },
+          {
+            "title": "教师值班病逝抢救超48小时未认工伤",
+            "url": "https://s.weibo.com/weibo?q=教师值班病逝抢救超48小时未认工伤",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_12"
+          },
+          {
+            "title": "康婆子下线看哭了",
+            "url": "https://s.weibo.com/weibo?q=康婆子下线看哭了",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_13"
+          },
+          {
+            "title": "荷兰回国认亲女子生父回应遗弃女儿",
+            "url": "https://s.weibo.com/weibo?q=荷兰回国认亲女子生父回应遗弃女儿",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_14"
+          },
+          {
+            "title": "研究称第二次怀孕会继续重塑大脑",
+            "url": "https://s.weibo.com/weibo?q=研究称第二次怀孕会继续重塑大脑",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_15"
+          },
+          {
+            "title": "长期用小拇指托手机的后果",
+            "url": "https://s.weibo.com/weibo?q=长期用小拇指托手机的后果",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_16"
+          },
+          {
+            "title": "24岁女研究生陪母抗癌后确诊肠癌",
+            "url": "https://s.weibo.com/weibo?q=24岁女研究生陪母抗癌后确诊肠癌",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_17"
+          }
+        ]
+      }
+    },
     "github": {
       "name": "GitHub 趋势",
       "icon": "💻",
@@ -19,6 +301,273 @@
             "source": "GitHub",
             "time": "刚刚",
             "id": "github_1"
+          },
+          {
+            "title": "freeCodeCamp/freeCodeCamp",
+            "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_2"
+          },
+          {
+            "title": "public-apis/public-apis",
+            "url": "https://github.com/public-apis/public-apis",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_3"
+          },
+          {
+            "title": "EbookFoundation/free-programming-books",
+            "url": "https://github.com/EbookFoundation/free-programming-books",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_4"
+          },
+          {
+            "title": "kamranahmedse/developer-roadmap",
+            "url": "https://github.com/kamranahmedse/developer-roadmap",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_5"
+          },
+          {
+            "title": "donnemartin/system-design-primer",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_6"
+          },
+          {
+            "title": "jwasham/coding-interview-university",
+            "url": "https://github.com/jwasham/coding-interview-university",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_7"
+          },
+          {
+            "title": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_8"
+          },
+          {
+            "title": "vinta/awesome-python",
+            "url": "https://github.com/vinta/awesome-python",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_9"
+          },
+          {
+            "title": "awesome-selfhosted/awesome-selfhosted",
+            "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_10"
+          },
+          {
+            "title": "996icu/996.ICU",
+            "url": "https://github.com/996icu/996.ICU",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_11"
+          },
+          {
+            "title": "practical-tutorials/project-based-learning",
+            "url": "https://github.com/practical-tutorials/project-based-learning",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_12"
+          },
+          {
+            "title": "facebook/react",
+            "url": "https://github.com/facebook/react",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_13"
+          },
+          {
+            "title": "torvalds/linux",
+            "url": "https://github.com/torvalds/linux",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_14"
+          },
+          {
+            "title": "TheAlgorithms/Python",
+            "url": "https://github.com/TheAlgorithms/Python",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_15"
+          },
+          {
+            "title": "vuejs/vue",
+            "url": "https://github.com/vuejs/vue",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_16"
+          },
+          {
+            "title": "trimstray/the-book-of-secret-knowledge",
+            "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_17"
+          },
+          {
+            "title": "ossu/computer-science",
+            "url": "https://github.com/ossu/computer-science",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_18"
+          },
+          {
+            "title": "trekhleb/javascript-algorithms",
+            "url": "https://github.com/trekhleb/javascript-algorithms",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_19"
+          }
+        ]
+      }
+    },
+    "newsapi": {
+      "name": "NewsAPI",
+      "icon": "📰",
+      "categories": {
+        "科技新闻": [
+          {
+            "title": "Former Overwatch Director Breaks Silence About Sud",
+            "url": "https://www.nintendolife.com/news/2026/03/former-overwatch-director-breaks-silence-about-sudden-departure-from-blizzard",
+            "source": "Nintendo Life",
+            "time": "刚刚",
+            "id": "news_0"
+          },
+          {
+            "title": "How well does the new MacBook Neo handle gaming? A",
+            "url": "https://9to5mac.com/2026/03/11/how-well-does-the-new-macbook-neo-handle-gaming-andrew-tsai-tested-10-games-to-find-out/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_1"
+          },
+          {
+            "title": "Perplexity rolls out enterprise AI agent tools - A",
+            "url": "https://www.axios.com/2026/03/11/perplexity-personal-computer-mac",
+            "source": "Axios",
+            "time": "刚刚",
+            "id": "news_2"
+          },
+          {
+            "title": "Pokemon Pokopia sales top 2.2 million in four days",
+            "url": "https://www.gematsu.com/2026/03/pokemon-pokopia-sales-top-2-2-million-in-four-days",
+            "source": "Gematsu",
+            "time": "刚刚",
+            "id": "news_3"
+          },
+          {
+            "title": "Google Play is adding new paid and PC games, game ",
+            "url": "https://techcrunch.com/2026/03/11/google-play-is-adding-new-paid-and-pc-games-game-trials-community-posts-and-more/",
+            "source": "TechCrunch",
+            "time": "刚刚",
+            "id": "news_4"
+          },
+          {
+            "title": "Nanophotonic waveguide chip-to-world beam scanning",
+            "url": "https://www.nature.com/articles/s41586-025-10038-6",
+            "source": "Nature.com",
+            "time": "刚刚",
+            "id": "news_5"
+          },
+          {
+            "title": "iPhone Fold rumor: iPad-like multitasking, but no ",
+            "url": "https://www.theverge.com/tech/893429/iphone-fold-rumor-ipad-multitasking-face-id-rumor",
+            "source": "The Verge",
+            "time": "刚刚",
+            "id": "news_6"
+          },
+          {
+            "title": "Xbox unveils first tech details of its next genera",
+            "url": "https://www.gamesindustry.biz/xbox-unveils-first-tech-details-of-its-next-generation-console-codenamed-project-helix",
+            "source": "GamesIndustry.biz",
+            "time": "刚刚",
+            "id": "news_7"
+          },
+          {
+            "title": "M5 Max’s Fusion Architecture Allows For Better Sus",
+            "url": "https://wccftech.com/m5-max-runs-cooler-than-m4-max-but-still-gets-scorching-hot/",
+            "source": "Wccftech",
+            "time": "刚刚",
+            "id": "news_8"
+          },
+          {
+            "title": "Windows 11’s Steam Deck-ish, streamlined Xbox gami",
+            "url": "https://arstechnica.com/gadgets/2026/03/windows-11s-steam-deck-ish-streamlined-xbox-gaming-ui-comes-to-all-pcs-in-april/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_9"
+          },
+          {
+            "title": "The Galaxy S26 series is now officially on sale, a",
+            "url": "http://9to5google.com/2026/03/11/the-galaxy-s26-series-is-now-officially-on-sale-and-the-trade-in-values-have-plummeted/",
+            "source": "9to5google.com",
+            "time": "刚刚",
+            "id": "news_10"
+          },
+          {
+            "title": "CVS is packed with beauty markdowns in March, but ",
+            "url": "https://shopping.yahoo.com/deals/article/cvs-is-packed-with-beauty-markdowns-in-march-but-only-10-made-my-cart-184809637.html",
+            "source": "Yahoo Entertainment",
+            "time": "刚刚",
+            "id": "news_11"
+          },
+          {
+            "title": "Valve argues loot boxes are like baseball cards an",
+            "url": "https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/",
+            "source": "Polygon",
+            "time": "刚刚",
+            "id": "news_12"
+          },
+          {
+            "title": "MacBook Pro to Receive 'Major Upgrade' by Early Ne",
+            "url": "https://www.macrumors.com/2026/03/11/macbook-pro-major-upgrade/",
+            "source": "MacRumors",
+            "time": "刚刚",
+            "id": "news_13"
+          },
+          {
+            "title": "New iPhone 18 Pro leaks explore design details, di",
+            "url": "https://9to5mac.com/2026/03/11/new-iphone-18-pro-leaks-explore-design-details-dimensions-more/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_14"
+          },
+          {
+            "title": "Enjoy New Prizes and Newly Distributed Battle Boxe",
+            "url": "https://www.pokemon.com/us/pokemon-news/enjoy-new-prizes-and-newly-distributed-battle-boxes-at-play-pokemon-stores",
+            "source": "Pokemon.com",
+            "time": "刚刚",
+            "id": "news_15"
+          },
+          {
+            "title": "WhatsApp is launching parent-linked accounts for p",
+            "url": "https://techcrunch.com/2026/03/11/whatsapp-is-launching-parent-linked-accounts-for-pre-teens/",
+            "source": "TechCrunch",
+            "time": "刚刚",
+            "id": "news_16"
+          },
+          {
+            "title": "Microsoft Confirms SQL Zero-Day Security Vulnerabi",
+            "url": "https://www.forbes.com/sites/daveywinder/2026/03/11/microsoft-confirms-sql-zero-day-security-vulnerability-heres-the-fix/",
+            "source": "Forbes",
+            "time": "刚刚",
+            "id": "news_17"
+          },
+          {
+            "title": "Valve Reveals Requirements for Steam Frame Game Ce",
+            "url": "https://www.roadtovr.com/steam-frame-game-certification-specs/",
+            "source": "Road to VR",
+            "time": "刚刚",
+            "id": "news_18"
           }
         ]
       }
