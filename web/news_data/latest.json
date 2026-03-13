@@ -1,106 +1,435 @@
 {
-  "updateTime": "2026-03-13 11:29:55",
-  "sources": {
-    "zhihu": 0,
-    "weibo": 0,
-    "github": 15,
-    "news": 0
-  },
-  "data": {
-    "zhihu": [],
-    "weibo": [],
-    "github": [
-      {
-        "title": "codecrafters-io/build-your-own-x",
-        "url": "https://github.com/codecrafters-io/build-your-own-x",
-        "hot": "Master programming by recreating your favorite technologies from scratch.",
-        "source": "GitHub"
-      },
-      {
-        "title": "sindresorhus/awesome",
-        "url": "https://github.com/sindresorhus/awesome",
-        "hot": "😎 Awesome lists about all kinds of interesting topics",
-        "source": "GitHub"
-      },
-      {
-        "title": "freeCodeCamp/freeCodeCamp",
-        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-        "hot": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-        "source": "GitHub"
-      },
-      {
-        "title": "public-apis/public-apis",
-        "url": "https://github.com/public-apis/public-apis",
-        "hot": "A collective list of free APIs",
-        "source": "GitHub"
-      },
-      {
-        "title": "EbookFoundation/free-programming-books",
-        "url": "https://github.com/EbookFoundation/free-programming-books",
-        "hot": ":books: Freely available programming books",
-        "source": "GitHub"
-      },
-      {
-        "title": "kamranahmedse/developer-roadmap",
-        "url": "https://github.com/kamranahmedse/developer-roadmap",
-        "hot": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-        "source": "GitHub"
-      },
-      {
-        "title": "donnemartin/system-design-primer",
-        "url": "https://github.com/donnemartin/system-design-primer",
-        "hot": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-        "source": "GitHub"
-      },
-      {
-        "title": "jwasham/coding-interview-university",
-        "url": "https://github.com/jwasham/coding-interview-university",
-        "hot": "A complete computer science study plan to become a software engineer.",
-        "source": "GitHub"
-      },
-      {
-        "title": "openclaw/openclaw",
-        "url": "https://github.com/openclaw/openclaw",
-        "hot": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "source": "GitHub"
-      },
-      {
-        "title": "vinta/awesome-python",
-        "url": "https://github.com/vinta/awesome-python",
-        "hot": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
-        "source": "GitHub"
-      },
-      {
-        "title": "awesome-selfhosted/awesome-selfhosted",
-        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "hot": "A list of Free Software network services and web applications which can be hosted on your own servers",
-        "source": "GitHub"
-      },
-      {
-        "title": "996icu/996.ICU",
-        "url": "https://github.com/996icu/996.ICU",
-        "hot": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
-        "source": "GitHub"
-      },
-      {
-        "title": "practical-tutorials/project-based-learning",
-        "url": "https://github.com/practical-tutorials/project-based-learning",
-        "hot": "Curated list of project-based tutorials",
-        "source": "GitHub"
-      },
-      {
-        "title": "facebook/react",
-        "url": "https://github.com/facebook/react",
-        "hot": "The library for web and native user interfaces.",
-        "source": "GitHub"
-      },
-      {
-        "title": "torvalds/linux",
-        "url": "https://github.com/torvalds/linux",
-        "hot": "Linux kernel source tree",
-        "source": "GitHub"
+  "updateTime": "2026-03-13 11:57:09",
+  "platforms": {
+    "zhihu": {
+      "name": "知乎热榜",
+      "icon": "📚",
+      "categories": {
+        "热榜": [
+          {
+            "title": "大模型的token究竟是什么？",
+            "url": "https://www.zhihu.com/questions/1662306083",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_0"
+          },
+          {
+            "title": "司法部部长表示，今年将通过政府立法解决「内卷式」竞争，有哪些可行举措？",
+            "url": "https://www.zhihu.com/questions/2015510070532728752",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_1"
+          },
+          {
+            "title": "主动要求当足球守门员的男性有哪些心态？",
+            "url": "https://www.zhihu.com/questions/41369026",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_2"
+          },
+          {
+            "title": "「魔兽」霍华德宣布退役，结束 20 年篮球职业生涯，如何评价他的生涯？",
+            "url": "https://www.zhihu.com/questions/2015698902767067551",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_3"
+          },
+          {
+            "title": "如何评价《一人之下》漫画第755（805）话？",
+            "url": "https://www.zhihu.com/questions/2015692711542399439",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_4"
+          },
+          {
+            "title": "美以袭击伊朗进入第 14 天，当前局势如何？有哪些值得关注的信息？",
+            "url": "https://www.zhihu.com/questions/2015107630499136848",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_5"
+          },
+          {
+            "title": "GitHub Copilot、Cursor、CodeX 与Claude Code，我究竟要为谁付费？",
+            "url": "https://www.zhihu.com/questions/1963698332040929828",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_6"
+          },
+          {
+            "title": "为什么家庭烧烤烤不出香味，肉还很干？",
+            "url": "https://www.zhihu.com/questions/377930795",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_7"
+          },
+          {
+            "title": "相比于足球，中国有很多人打篮球，为什么这几年篮球也不行了？",
+            "url": "https://www.zhihu.com/questions/3902222684",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_8"
+          },
+          {
+            "title": "主体性很强的人有什么特点？",
+            "url": "https://www.zhihu.com/questions/4892085017",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_9"
+          },
+          {
+            "title": "伊朗称一架美军加油机被击落，美方称并非由敌方火力或友军误击造成，具体是怎么回事？目前伊朗防空能力如何",
+            "url": "https://www.zhihu.com/questions/2015691380442232507",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_10"
+          },
+          {
+            "title": "于东来回应40亿资产分配给员工「是真的」，其追求靠制度和股份制的运营模式，什么意思？其他公司能学习吗",
+            "url": "https://www.zhihu.com/questions/2015463089634506604",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_11"
+          },
+          {
+            "title": "伊朗最高领袖穆杰塔巴发表首份声明，称不会放弃复仇，霍尔木兹海峡将继续关闭，释放哪些信息？",
+            "url": "https://www.zhihu.com/questions/2015523135349338999",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_12"
+          },
+          {
+            "title": "伊朗副外长称允许部分国家船只通过霍尔木兹海峡，并未在该水域布雷，这对全球能源市场有哪些利好？",
+            "url": "https://www.zhihu.com/questions/2015702712000410278",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_13"
+          },
+          {
+            "title": "阿里首席HR蒋芳被曝回应林俊旸离职说「不能推上神坛」，怎么理解？反映了阿里对待技术灵魂人物的什么文化",
+            "url": "https://www.zhihu.com/questions/2012922458819224399",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_14"
+          },
+          {
+            "title": "如何评价《逐玉》成为首部双平台联播热度破万的电视剧？是 2026 第一爆款剧吗？你的真实体感如何？",
+            "url": "https://www.zhihu.com/questions/2015372316838753869",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_15"
+          },
+          {
+            "title": "代表建议游戏平台凌晨 1 点到 5 点强制关闭，成年人的游戏时间也要被限制吗？若实行会带来什么影响？",
+            "url": "https://www.zhihu.com/questions/2015376786591014918",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_16"
+          },
+          {
+            "title": "老总晚上10点在群里发消息，大家没人回，随后凌晨1点又发一条：以后“已读不回”按旷工处理，该怎么办？",
+            "url": "https://www.zhihu.com/questions/2015154824073728537",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_17"
+          },
+          {
+            "title": "如何评价《明日方舟：终末地》1.1版本？",
+            "url": "https://www.zhihu.com/questions/2015375251127694380",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_18"
+          },
+          {
+            "title": "王励勤称正与樊振东沟通，希望他有机会为国征战，这背后有哪些潜在原因？",
+            "url": "https://www.zhihu.com/questions/2014993284930494898",
+            "source": "知乎",
+            "time": "刚刚",
+            "id": "zhihu_19"
+          }
+        ]
       }
-    ],
-    "news": []
+    },
+    "weibo": {
+      "name": "微博热搜",
+      "icon": "🔴",
+      "categories": {
+        "热搜": [
+          {
+            "title": "F1",
+            "url": "https://s.weibo.com/weibo?q=F1",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_0"
+          },
+          {
+            "title": "微信新功能被称为社恐福音",
+            "url": "https://s.weibo.com/weibo?q=微信新功能被称为社恐福音",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_1"
+          },
+          {
+            "title": "春天里的中国向新而行",
+            "url": "https://s.weibo.com/weibo?q=春天里的中国向新而行",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_2"
+          },
+          {
+            "title": "你好1983定档",
+            "url": "https://s.weibo.com/weibo?q=你好1983定档",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_3"
+          },
+          {
+            "title": "单亲妈妈14年手打200万个锅盔",
+            "url": "https://s.weibo.com/weibo?q=单亲妈妈14年手打200万个锅盔",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_4"
+          },
+          {
+            "title": "豆包 消极怠工",
+            "url": "https://s.weibo.com/weibo?q=豆包 消极怠工",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_5"
+          },
+          {
+            "title": "今年加快研究人工智能立法",
+            "url": "https://s.weibo.com/weibo?q=今年加快研究人工智能立法",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_6"
+          },
+          {
+            "title": "以色列总理威胁刺杀伊朗新最高领袖",
+            "url": "https://s.weibo.com/weibo?q=以色列总理威胁刺杀伊朗新最高领袖",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_7"
+          },
+          {
+            "title": "10年再提公积金改革释放强烈信号",
+            "url": "https://s.weibo.com/weibo?q=10年再提公积金改革释放强烈信号",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_8"
+          },
+          {
+            "title": "3个新人跑两会是啥体验",
+            "url": "https://s.weibo.com/weibo?q=3个新人跑两会是啥体验",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_9"
+          },
+          {
+            "title": "张柏芝一把夺过粉丝手机合拍",
+            "url": "https://s.weibo.com/weibo?q=张柏芝一把夺过粉丝手机合拍",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_10"
+          },
+          {
+            "title": "保洁员发现男子被遗忘核磁共振机",
+            "url": "https://s.weibo.com/weibo?q=保洁员发现男子被遗忘核磁共振机",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_11"
+          },
+          {
+            "title": "杨紫向品牌方赠汉服引惊叹",
+            "url": "https://s.weibo.com/weibo?q=杨紫向品牌方赠汉服引惊叹",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_12"
+          },
+          {
+            "title": "张踩铃 不要脸的人先享受甜茶",
+            "url": "https://s.weibo.com/weibo?q=张踩铃 不要脸的人先享受甜茶",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_13"
+          },
+          {
+            "title": "男子做核磁被忘机器上6小时妻子报警",
+            "url": "https://s.weibo.com/weibo?q=男子做核磁被忘机器上6小时妻子报警",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_14"
+          },
+          {
+            "title": "澳洲遇难2名中国人深夜自驾赶工作",
+            "url": "https://s.weibo.com/weibo?q=澳洲遇难2名中国人深夜自驾赶工作",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_15"
+          },
+          {
+            "title": "丈夫意外去世女子求解锁手机",
+            "url": "https://s.weibo.com/weibo?q=丈夫意外去世女子求解锁手机",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_16"
+          },
+          {
+            "title": "小米SU7靛石绿",
+            "url": "https://s.weibo.com/weibo?q=小米SU7靛石绿",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_17"
+          }
+        ]
+      }
+    },
+    "github": {
+      "name": "GitHub 趋势",
+      "icon": "💻",
+      "categories": {
+        "Trending": [
+          {
+            "title": "codecrafters-io/build-your-own-x",
+            "url": "https://github.com/codecrafters-io/build-your-own-x",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_0"
+          },
+          {
+            "title": "sindresorhus/awesome",
+            "url": "https://github.com/sindresorhus/awesome",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_1"
+          },
+          {
+            "title": "freeCodeCamp/freeCodeCamp",
+            "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_2"
+          },
+          {
+            "title": "public-apis/public-apis",
+            "url": "https://github.com/public-apis/public-apis",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_3"
+          },
+          {
+            "title": "EbookFoundation/free-programming-books",
+            "url": "https://github.com/EbookFoundation/free-programming-books",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_4"
+          },
+          {
+            "title": "kamranahmedse/developer-roadmap",
+            "url": "https://github.com/kamranahmedse/developer-roadmap",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_5"
+          },
+          {
+            "title": "donnemartin/system-design-primer",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_6"
+          },
+          {
+            "title": "jwasham/coding-interview-university",
+            "url": "https://github.com/jwasham/coding-interview-university",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_7"
+          },
+          {
+            "title": "openclaw/openclaw",
+            "url": "https://github.com/openclaw/openclaw",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_8"
+          },
+          {
+            "title": "vinta/awesome-python",
+            "url": "https://github.com/vinta/awesome-python",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_9"
+          },
+          {
+            "title": "awesome-selfhosted/awesome-selfhosted",
+            "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_10"
+          },
+          {
+            "title": "996icu/996.ICU",
+            "url": "https://github.com/996icu/996.ICU",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_11"
+          },
+          {
+            "title": "practical-tutorials/project-based-learning",
+            "url": "https://github.com/practical-tutorials/project-based-learning",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_12"
+          },
+          {
+            "title": "facebook/react",
+            "url": "https://github.com/facebook/react",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_13"
+          },
+          {
+            "title": "torvalds/linux",
+            "url": "https://github.com/torvalds/linux",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_14"
+          },
+          {
+            "title": "TheAlgorithms/Python",
+            "url": "https://github.com/TheAlgorithms/Python",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_15"
+          },
+          {
+            "title": "vuejs/vue",
+            "url": "https://github.com/vuejs/vue",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_16"
+          },
+          {
+            "title": "trimstray/the-book-of-secret-knowledge",
+            "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_17"
+          },
+          {
+            "title": "ossu/computer-science",
+            "url": "https://github.com/ossu/computer-science",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_18"
+          },
+          {
+            "title": "trekhleb/javascript-algorithms",
+            "url": "https://github.com/trekhleb/javascript-algorithms",
+            "source": "GitHub",
+            "time": "刚刚",
+            "id": "github_19"
+          }
+        ]
+      }
+    }
   }
 }
