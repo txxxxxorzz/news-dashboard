@@ -511,11 +511,10 @@
     <!-- 平台切换 -->
     <div class="platform-tabs" id="platformTabs">
         <div class="platform-tab active" data-platform="all">🌐 全部</div>
-        <div class="platform-tab" data-platform="newsapi">📰 NewsAPI</div>
+        <div class="platform-tab" data-platform="zhihu">📚 知乎</div>
         <div class="platform-tab" data-platform="weibo">🔴 微博</div>
-        <div class="platform-tab" data-platform="twitter">🐦 Twitter</div>
-        <div class="platform-tab" data-platform="reddit">👽 Reddit</div>
-        <div class="platform-tab" data-platform="rss">📡 RSS</div>
+        <div class="platform-tab" data-platform="github">💻 GitHub</div>
+        <div class="platform-tab" data-platform="newsapi">📰 科技新闻</div>
     </div>
 
     <!-- 主内容区 -->
@@ -797,6 +796,9 @@
                 .then(() => console.log('Service Worker 已注册'))
                 .catch(err => console.error('SW 注册失败:', err));
         }
+
+        // 页面加载时立即加载数据
+        loadNewsData();
 
         // 初始化
         loadNewsData();
