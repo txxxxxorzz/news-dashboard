@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-03-14 00:13:59",
+  "updateTime": "2026-03-13 16:15:48",
   "platforms": {
     "zhihu": {
       "name": "知乎热榜",
@@ -281,20 +281,6 @@
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_17"
-          },
-          {
-            "title": "海尔发布会",
-            "url": "https://s.weibo.com/weibo?q=海尔发布会",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_18"
-          },
-          {
-            "title": "18岁女生被诱导贷8万做医美",
-            "url": "https://s.weibo.com/weibo?q=18岁女生被诱导贷8万做医美",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_19"
           }
         ]
       }
@@ -443,6 +429,140 @@
             "source": "GitHub",
             "time": "刚刚",
             "id": "github_19"
+          }
+        ]
+      }
+    },
+    "newsapi": {
+      "name": "NewsAPI",
+      "icon": "📰",
+      "categories": {
+        "科技新闻": [
+          {
+            "title": "Perplexity’s Personal Computer turns your spare Ma",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
+            "source": "The Verge",
+            "time": "刚刚",
+            "id": "news_0"
+          },
+          {
+            "title": "Poll: Has PS5's Dynamic Pricing Debacle Changed Yo",
+            "url": "https://www.pushsquare.com/features/poll-has-ps5s-dynamic-pricing-debacle-changed-your-relationship-with-the-ps-store-at-all",
+            "source": "Push Square",
+            "time": "刚刚",
+            "id": "news_1"
+          },
+          {
+            "title": "Former Overwatch Lead claims he was given a horrid",
+            "url": "https://www.eurogamer.net/former-overwatch-lead-claims-he-was-given-a-horrid-ultimatum-meet-revenue-goals-or-1000-developers-would-lose-jobs",
+            "source": "Eurogamer.net",
+            "time": "刚刚",
+            "id": "news_2"
+          },
+          {
+            "title": "New GTA Online Event Week: Showcase Special (March",
+            "url": "https://rockstarintel.com/new-gta-online-event-week-march-12th-18th/",
+            "source": "Rockstarintel.com",
+            "time": "刚刚",
+            "id": "news_3"
+          },
+          {
+            "title": "AI may never be as cheap as it is today - Axios",
+            "url": "https://www.axios.com/2026/03/12/ai-models-costs-ipo-pricing",
+            "source": "Axios",
+            "time": "刚刚",
+            "id": "news_4"
+          },
+          {
+            "title": "ASUS adds three 27-inch QHD ROG Strix OLED gaming ",
+            "url": "https://videocardz.com/newz/asus-adds-three-27-inch-qhd-rog-strix-oled-gaming-monitors-starting-at-599",
+            "source": "Videocardz.com",
+            "time": "刚刚",
+            "id": "news_5"
+          },
+          {
+            "title": "How well does the new MacBook Neo handle gaming? A",
+            "url": "https://9to5mac.com/2026/03/11/how-well-does-the-new-macbook-neo-handle-gaming-andrew-tsai-tested-10-games-to-find-out/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_6"
+          },
+          {
+            "title": "Pokémon Pokopia Sales Surpass 2.2 Million Units Gl",
+            "url": "https://www.nintendolife.com/news/2026/03/pokemon-pokopia-sales-surpass-2-2-million-units-globally-in-first-four-days",
+            "source": "Nintendo Life",
+            "time": "刚刚",
+            "id": "news_7"
+          },
+          {
+            "title": "Google Play Games for PC is getting more premium t",
+            "url": "https://arstechnica.com/gaming/2026/03/google-play-games-for-pc-is-getting-more-premium-titles-and-cross-buy-with-android/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_8"
+          },
+          {
+            "title": "Nanophotonic waveguide chip-to-world beam scanning",
+            "url": "https://www.nature.com/articles/s41586-025-10038-6",
+            "source": "Nature.com",
+            "time": "刚刚",
+            "id": "news_9"
+          },
+          {
+            "title": "MacBook Air With OLED Display is Still Years Away ",
+            "url": "https://www.macrumors.com/2026/03/11/macbook-air-oled-display-2028/",
+            "source": "MacRumors",
+            "time": "刚刚",
+            "id": "news_10"
+          },
+          {
+            "title": "iPhone Fold rumor: iPad-like multitasking, but no ",
+            "url": "https://www.theverge.com/tech/893429/iphone-fold-rumor-ipad-multitasking-face-id-rumor",
+            "source": "The Verge",
+            "time": "刚刚",
+            "id": "news_11"
+          },
+          {
+            "title": "M5 Max’s Fusion Architecture Allows For Better Sus",
+            "url": "https://wccftech.com/m5-max-runs-cooler-than-m4-max-but-still-gets-scorching-hot/",
+            "source": "Wccftech",
+            "time": "刚刚",
+            "id": "news_12"
+          },
+          {
+            "title": "Windows 11’s Steam Deck-ish, streamlined Xbox gami",
+            "url": "https://arstechnica.com/gadgets/2026/03/windows-11s-steam-deck-ish-streamlined-xbox-gaming-ui-comes-to-all-pcs-in-april/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_13"
+          },
+          {
+            "title": "macOS 26.4: Four new features are coming to your M",
+            "url": "https://9to5mac.com/2026/03/11/macos-26-4-four-new-features-are-coming-to-your-mac/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_14"
+          },
+          {
+            "title": "The Galaxy S26 series is now officially on sale, a",
+            "url": "http://9to5google.com/2026/03/11/the-galaxy-s26-series-is-now-officially-on-sale-and-the-trade-in-values-have-plummeted/",
+            "source": "9to5google.com",
+            "time": "刚刚",
+            "id": "news_15"
+          },
+          {
+            "title": "CVS is packed with beauty markdowns in March, but ",
+            "url": "https://shopping.yahoo.com/deals/article/cvs-is-packed-with-beauty-markdowns-in-march-but-only-10-made-my-cart-184809637.html",
+            "source": "Yahoo Entertainment",
+            "time": "刚刚",
+            "id": "news_16"
+          },
+          {
+            "title": "Valve argues loot boxes are like baseball cards an",
+            "url": "https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/",
+            "source": "Polygon",
+            "time": "刚刚",
+            "id": "news_17"
           }
         ]
       }
