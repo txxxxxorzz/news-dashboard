@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试数据加载</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #1e293b; color: #f1f5f9; }
+        .status { padding: 15px; margin: 10px 0; border-radius: 8px; }
+        .success { background: #10b981; }
+        .error { background: #ef4444; }
+        .loading { background: #3b82f6; }
+        pre { background: #0f172a; padding: 15px; border-radius: 8px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔥 热点情报 - 数据加载测试</h1>
+    <div id="status" class="status loading">正在加载数据...</div>
+    <div id="content"></div>
+
+    <script>
+        async function testData() {
+            const statusEl = document.getElementById('status');
+            const contentEl = document.getElementById('content');
+            
+            try {
+                statusEl.textContent = '正在请求数据...';
+                
+                const response = await fetch('news_data/latest.json?t=' + Date.now());
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                statusEl.className = 'status success';
+                statusEl.textContent = `✅ 数据加载成功！更新时间：${data.updateTime}`;
+                
+                let html = '<h2>平台列表:</h2><ul>';
+                for (const [key, platform] of Object.entries(data.platforms || {})) {
+                    const count = Object.values(platform.categories || {}).reduce((sum, items) => sum + items.length, 0);
+                    html += `<li><strong>${platform.icon} ${platform.name}</strong>: ${count} 条</li>`;
+                }
+                html += '</ul>';
+                
+                html += '<h2>原始数据预览:</h2><pre>' + JSON.stringify(data, null, 2).substring(0, 2000) + '...</pre>';
+                
+                contentEl.innerHTML = html;
+                
+            } catch (error) {
+                statusEl.className = 'status error';
+                statusEl.textContent = '❌ 加载失败：' + error.message;
+                contentEl.innerHTML = '<pre>请检查浏览器控制台 (F12) 查看详细错误</pre>';
+            }
+        }
+        
+        testData();
+    </script>
+</body>
+</html>
