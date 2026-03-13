@@ -1,10 +1,10 @@
 {
-  "updateTime": "2026-03-13 16:15:48",
+  "updateTime": "2026-03-13 18:32:04",
   "platforms": {
     "zhihu": {
       "name": "知乎热榜",
       "icon": "📚",
-      "aiSummary": "🔥 热门：委员称去机场比坐飞机时间还长， | 有什么有意思的大学名称缩写？ | 如果 0.01 纳米的一根线瞬 | 挥动一根无限长的杆子，那最远端 | 美国防部被曝「龙虾门」，花费 ",
+      "aiSummary": "🔥 热门：委员称去机场比坐飞机时间还长， | 如果 0.01 纳米的一根线瞬 | 为什么每天下班回家明明很累，却 | 挥动一根无限长的杆子，那最远端 | 美国防部被曝「龙虾门」，花费 ",
       "categories": {
         "热榜": [
           {
@@ -15,15 +15,15 @@
             "id": "zhihu_0"
           },
           {
-            "title": "有什么有意思的大学名称缩写？",
-            "url": "https://www.zhihu.com/questions/40430730",
+            "title": "如果 0.01 纳米的一根线瞬间切割人体，可造成什么伤害？",
+            "url": "https://www.zhihu.com/questions/647127634",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_1"
           },
           {
-            "title": "如果 0.01 纳米的一根线瞬间切割人体，可造成什么伤害？",
-            "url": "https://www.zhihu.com/questions/647127634",
+            "title": "为什么每天下班回家明明很累，却就是不想洗漱睡觉，只想瘫着玩手机？",
+            "url": "https://www.zhihu.com/questions/2012581981322441725",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_2"
@@ -57,15 +57,15 @@
             "id": "zhihu_6"
           },
           {
-            "title": "为什么每天下班回家明明很累，却就是不想洗漱睡觉，只想瘫着玩手机？",
-            "url": "https://www.zhihu.com/questions/2012581981322441725",
+            "title": "有什么有意思的大学名称缩写？",
+            "url": "https://www.zhihu.com/questions/40430730",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_7"
           },
           {
-            "title": "芝加哥商品交易所（CME）警告称美国干预「石油期货」将是一场「史诗般的灾难」，如何理解？",
-            "url": "https://www.zhihu.com/questions/2015703710299357982",
+            "title": "有哪些演员因为演活了一个角色，成为了这个角色在观众心目中的化身？",
+            "url": "https://www.zhihu.com/questions/397103732",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_8"
@@ -127,22 +127,22 @@
             "id": "zhihu_16"
           },
           {
-            "title": "美国财政部宣布将暂时放宽对部分俄罗斯石油的制裁，会对国际油价有怎样的影响？",
-            "url": "https://www.zhihu.com/questions/2015713289095574944",
+            "title": "美以袭击伊朗进入第 14 天，当前局势如何？有哪些值得关注的信息？",
+            "url": "https://www.zhihu.com/questions/2015107630499136848",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_17"
           },
           {
-            "title": "美以袭击伊朗进入第 14 天，当前局势如何？有哪些值得关注的信息？",
-            "url": "https://www.zhihu.com/questions/2015107630499136848",
+            "title": "伊朗称袭击「林肯」号航母已致其失去作战能力，返回美国，是真的吗？「林肯」号航母对战局影响有多大？",
+            "url": "https://www.zhihu.com/questions/2015763956870903371",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_18"
           },
           {
-            "title": "伊朗称袭击「林肯」号航母已致其失去作战能力，返回美国，是真的吗？「林肯」号航母对战局影响有多大？",
-            "url": "https://www.zhihu.com/questions/2015763956870903371",
+            "title": "芝加哥商品交易所（CME）警告称美国干预「石油期货」将是一场「史诗般的灾难」，如何理解？",
+            "url": "https://www.zhihu.com/questions/2015703710299357982",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_19"
@@ -153,7 +153,7 @@
     "weibo": {
       "name": "微博热搜",
       "icon": "🔴",
-      "aiSummary": "🔥 热门：花6毛骑共享单车每月被扣费17 | 春日里的中国经济密码 | 田曦薇心疼樊长玉哭了 | 以色列总统称特朗普攻击国家主权 | 省考 紧张",
+      "aiSummary": "🔥 热门：花6毛骑共享单车每月被扣费17 | 春日里的中国经济密码 | 白玉兰视后大年 | 田曦薇心疼樊长玉哭了 | 美军坠毁加油机上6人全死",
       "categories": {
         "热搜": [
           {
@@ -178,29 +178,29 @@
             "id": "weibo_2"
           },
           {
-            "title": "田曦薇心疼樊长玉哭了",
-            "url": "https://s.weibo.com/weibo?q=田曦薇心疼樊长玉哭了",
+            "title": "白玉兰视后大年",
+            "url": "https://s.weibo.com/weibo?q=白玉兰视后大年",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_3"
           },
           {
-            "title": "胖东来",
-            "url": "https://s.weibo.com/weibo?q=胖东来",
+            "title": "田曦薇心疼樊长玉哭了",
+            "url": "https://s.weibo.com/weibo?q=田曦薇心疼樊长玉哭了",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_4"
           },
           {
-            "title": "以色列总统称特朗普攻击国家主权",
-            "url": "https://s.weibo.com/weibo?q=以色列总统称特朗普攻击国家主权",
+            "title": "美军坠毁加油机上6人全死",
+            "url": "https://s.weibo.com/weibo?q=美军坠毁加油机上6人全死",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_5"
           },
           {
-            "title": "省考 紧张",
-            "url": "https://s.weibo.com/weibo?q=省考 紧张",
+            "title": "多人反映贷款逾期被银行划走养老金",
+            "url": "https://s.weibo.com/weibo?q=多人反映贷款逾期被银行划走养老金",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_6"
@@ -220,43 +220,43 @@
             "id": "weibo_8"
           },
           {
-            "title": "十五五规划是施工图也是邀请函",
-            "url": "https://s.weibo.com/weibo?q=十五五规划是施工图也是邀请函",
+            "title": "男子维权被12315工作人员嘲讽",
+            "url": "https://s.weibo.com/weibo?q=男子维权被12315工作人员嘲讽",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_9"
           },
           {
-            "title": "男一男二男三男四男五",
-            "url": "https://s.weibo.com/weibo?q=男一男二男三男四男五",
+            "title": "张颂文硬气回应AI冲击影视行业",
+            "url": "https://s.weibo.com/weibo?q=张颂文硬气回应AI冲击影视行业",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_10"
-          },
-          {
-            "title": "瞿颖让我笑一天了",
-            "url": "https://s.weibo.com/weibo?q=瞿颖让我笑一天了",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_11"
           },
           {
             "title": "九尾 这导播是真恶心",
             "url": "https://s.weibo.com/weibo?q=九尾 这导播是真恶心",
             "source": "微博",
             "time": "刚刚",
+            "id": "weibo_11"
+          },
+          {
+            "title": "男一男二男三男四男五",
+            "url": "https://s.weibo.com/weibo?q=男一男二男三男四男五",
+            "source": "微博",
+            "time": "刚刚",
             "id": "weibo_12"
           },
           {
-            "title": "男子维权被12315工作人员嘲讽",
-            "url": "https://s.weibo.com/weibo?q=男子维权被12315工作人员嘲讽",
+            "title": "瞿颖让我笑一天了",
+            "url": "https://s.weibo.com/weibo?q=瞿颖让我笑一天了",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_13"
           },
           {
-            "title": "多人反映贷款逾期被银行划走养老金",
-            "url": "https://s.weibo.com/weibo?q=多人反映贷款逾期被银行划走养老金",
+            "title": "以色列总统称特朗普攻击国家主权",
+            "url": "https://s.weibo.com/weibo?q=以色列总统称特朗普攻击国家主权",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_14"
@@ -276,11 +276,25 @@
             "id": "weibo_16"
           },
           {
-            "title": "美军坠毁加油机上6人全死",
-            "url": "https://s.weibo.com/weibo?q=美军坠毁加油机上6人全死",
+            "title": "穿了二十厘米勉强一米七",
+            "url": "https://s.weibo.com/weibo?q=穿了二十厘米勉强一米七",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_17"
+          },
+          {
+            "title": "胖东来",
+            "url": "https://s.weibo.com/weibo?q=胖东来",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_18"
+          },
+          {
+            "title": "手机支付一定要设置3道锁",
+            "url": "https://s.weibo.com/weibo?q=手机支付一定要设置3道锁",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_19"
           }
         ]
       }
@@ -439,130 +453,144 @@
       "categories": {
         "科技新闻": [
           {
-            "title": "Perplexity’s Personal Computer turns your spare Ma",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
+            "title": "Anthropic’s Claude AI can respond with charts, dia",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
             "source": "The Verge",
             "time": "刚刚",
             "id": "news_0"
+          },
+          {
+            "title": "Get Triple Rewards and Bonus GTA$ During the GTA O",
+            "url": "https://www.rockstargames.com/newswire/article/39a83k188812ka/get-triple-rewards-and-bonus-gta-during-the-gta-online-community-serie",
+            "source": "Rockstargames.com",
+            "time": "刚刚",
+            "id": "news_1"
+          },
+          {
+            "title": "MacBook Neo Teardown: Modular Ports, Glue-Less Bat",
+            "url": "https://www.macrumors.com/2026/03/12/macbook-neo-six-minute-teardown-zero-tape/",
+            "source": "MacRumors",
+            "time": "刚刚",
+            "id": "news_2"
+          },
+          {
+            "title": "Apple to celebrate 50 years of thinking different ",
+            "url": "https://www.apple.com/newsroom/2026/03/apple-to-celebrate-50-years-of-thinking-different/",
+            "source": "Apple Newsroom",
+            "time": "刚刚",
+            "id": "news_3"
+          },
+          {
+            "title": "PlayStation Plus Announces 9 New Free Games For Ma",
+            "url": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-extra-march-2026-games-921444-20260311",
+            "source": "Gamingbible.com",
+            "time": "刚刚",
+            "id": "news_4"
+          },
+          {
+            "title": "After a successful launch weekend, Pokopia has bec",
+            "url": "https://www.eurogamer.net/after-a-successful-launch-weekend-pokopia-has-become-one-of-the-best-selling-pokemon-spin-offs-ever",
+            "source": "Eurogamer.net",
+            "time": "刚刚",
+            "id": "news_5"
+          },
+          {
+            "title": "Google Maps gets its biggest navigation redesign i",
+            "url": "https://arstechnica.com/gadgets/2026/03/google-maps-gets-its-biggest-navigation-redesign-in-a-decade-plus-more-ai/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_6"
+          },
+          {
+            "title": "Hasbro's CEO Says 'Magic: The Gathering' and 'Dung",
+            "url": "https://gizmodo.com/wizards-of-the-coast-dnd-magic-no-ai-2000732646",
+            "source": "Gizmodo.com",
+            "time": "刚刚",
+            "id": "news_7"
           },
           {
             "title": "Poll: Has PS5's Dynamic Pricing Debacle Changed Yo",
             "url": "https://www.pushsquare.com/features/poll-has-ps5s-dynamic-pricing-debacle-changed-your-relationship-with-the-ps-store-at-all",
             "source": "Push Square",
             "time": "刚刚",
-            "id": "news_1"
+            "id": "news_8"
           },
           {
-            "title": "Former Overwatch Lead claims he was given a horrid",
-            "url": "https://www.eurogamer.net/former-overwatch-lead-claims-he-was-given-a-horrid-ultimatum-meet-revenue-goals-or-1000-developers-would-lose-jobs",
-            "source": "Eurogamer.net",
+            "title": "Woman tests how Home Depot workers treat her in a ",
+            "url": "https://dailydot.com/pretty-privilege-home-depot-outfit-comparisons/",
+            "source": "The Daily Dot",
             "time": "刚刚",
-            "id": "news_2"
+            "id": "news_9"
           },
           {
-            "title": "New GTA Online Event Week: Showcase Special (March",
-            "url": "https://rockstarintel.com/new-gta-online-event-week-march-12th-18th/",
-            "source": "Rockstarintel.com",
+            "title": "Crimson Desert launch trailer - Gematsu",
+            "url": "https://www.gematsu.com/2026/03/crimson-desert-launch-trailer",
+            "source": "Gematsu",
             "time": "刚刚",
-            "id": "news_3"
+            "id": "news_10"
           },
           {
             "title": "AI may never be as cheap as it is today - Axios",
             "url": "https://www.axios.com/2026/03/12/ai-models-costs-ipo-pricing",
             "source": "Axios",
             "time": "刚刚",
-            "id": "news_4"
+            "id": "news_11"
+          },
+          {
+            "title": "Games with loot boxes will be rated PEGI 16 from J",
+            "url": "https://www.gamesindustry.biz/games-with-loot-boxes-will-be-rated-pegi-16-from-june-as-part-of-sweeping-changes-to-the-age-rating-system",
+            "source": "GamesIndustry.biz",
+            "time": "刚刚",
+            "id": "news_12"
           },
           {
             "title": "ASUS adds three 27-inch QHD ROG Strix OLED gaming ",
             "url": "https://videocardz.com/newz/asus-adds-three-27-inch-qhd-rog-strix-oled-gaming-monitors-starting-at-599",
             "source": "Videocardz.com",
             "time": "刚刚",
-            "id": "news_5"
+            "id": "news_13"
           },
           {
-            "title": "How well does the new MacBook Neo handle gaming? A",
-            "url": "https://9to5mac.com/2026/03/11/how-well-does-the-new-macbook-neo-handle-gaming-andrew-tsai-tested-10-games-to-find-out/",
-            "source": "9to5Mac",
+            "title": "Security researchers broke into a MediaTek-powered",
+            "url": "https://www.androidauthority.com/mediatek-chip-vulnerability-3648555/",
+            "source": "Android Authority",
             "time": "刚刚",
-            "id": "news_6"
+            "id": "news_14"
           },
           {
-            "title": "Pokémon Pokopia Sales Surpass 2.2 Million Units Gl",
-            "url": "https://www.nintendolife.com/news/2026/03/pokemon-pokopia-sales-surpass-2-2-million-units-globally-in-first-four-days",
-            "source": "Nintendo Life",
+            "title": "Xbox’s Project Helix, Sony’s PS6, and the PlayStat",
+            "url": "https://wccftech.com/playstation-6-xbox-project-helix-playstation-handheld-still-targeting-2027-release-rumor/",
+            "source": "Wccftech",
             "time": "刚刚",
-            "id": "news_7"
+            "id": "news_15"
           },
           {
-            "title": "Google Play Games for PC is getting more premium t",
-            "url": "https://arstechnica.com/gaming/2026/03/google-play-games-for-pc-is-getting-more-premium-titles-and-cross-buy-with-android/",
-            "source": "Ars Technica",
+            "title": "AI can 'same-ify' human expression — can some brai",
+            "url": "https://www.nature.com/articles/d41586-026-00781-9",
+            "source": "Nature.com",
             "time": "刚刚",
-            "id": "news_8"
+            "id": "news_16"
           },
           {
             "title": "Nanophotonic waveguide chip-to-world beam scanning",
             "url": "https://www.nature.com/articles/s41586-025-10038-6",
             "source": "Nature.com",
             "time": "刚刚",
-            "id": "news_9"
+            "id": "news_17"
+          },
+          {
+            "title": "Snapshots of the dynamic basis of NTSR1 G protein ",
+            "url": "https://www.nature.com/articles/s41586-026-10120-7",
+            "source": "Nature.com",
+            "time": "刚刚",
+            "id": "news_18"
           },
           {
             "title": "MacBook Air With OLED Display is Still Years Away ",
             "url": "https://www.macrumors.com/2026/03/11/macbook-air-oled-display-2028/",
             "source": "MacRumors",
             "time": "刚刚",
-            "id": "news_10"
-          },
-          {
-            "title": "iPhone Fold rumor: iPad-like multitasking, but no ",
-            "url": "https://www.theverge.com/tech/893429/iphone-fold-rumor-ipad-multitasking-face-id-rumor",
-            "source": "The Verge",
-            "time": "刚刚",
-            "id": "news_11"
-          },
-          {
-            "title": "M5 Max’s Fusion Architecture Allows For Better Sus",
-            "url": "https://wccftech.com/m5-max-runs-cooler-than-m4-max-but-still-gets-scorching-hot/",
-            "source": "Wccftech",
-            "time": "刚刚",
-            "id": "news_12"
-          },
-          {
-            "title": "Windows 11’s Steam Deck-ish, streamlined Xbox gami",
-            "url": "https://arstechnica.com/gadgets/2026/03/windows-11s-steam-deck-ish-streamlined-xbox-gaming-ui-comes-to-all-pcs-in-april/",
-            "source": "Ars Technica",
-            "time": "刚刚",
-            "id": "news_13"
-          },
-          {
-            "title": "macOS 26.4: Four new features are coming to your M",
-            "url": "https://9to5mac.com/2026/03/11/macos-26-4-four-new-features-are-coming-to-your-mac/",
-            "source": "9to5Mac",
-            "time": "刚刚",
-            "id": "news_14"
-          },
-          {
-            "title": "The Galaxy S26 series is now officially on sale, a",
-            "url": "http://9to5google.com/2026/03/11/the-galaxy-s26-series-is-now-officially-on-sale-and-the-trade-in-values-have-plummeted/",
-            "source": "9to5google.com",
-            "time": "刚刚",
-            "id": "news_15"
-          },
-          {
-            "title": "CVS is packed with beauty markdowns in March, but ",
-            "url": "https://shopping.yahoo.com/deals/article/cvs-is-packed-with-beauty-markdowns-in-march-but-only-10-made-my-cart-184809637.html",
-            "source": "Yahoo Entertainment",
-            "time": "刚刚",
-            "id": "news_16"
-          },
-          {
-            "title": "Valve argues loot boxes are like baseball cards an",
-            "url": "https://www.polygon.com/valve-response-new-york-attorney-general-lawsuit-loot-boxes-gambling/",
-            "source": "Polygon",
-            "time": "刚刚",
-            "id": "news_17"
+            "id": "news_19"
           }
         ]
       }
