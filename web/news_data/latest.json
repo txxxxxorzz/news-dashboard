@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-03-13 11:57:09",
+  "updateTime": "2026-03-13 04:00:02",
   "platforms": {
     "zhihu": {
       "name": "知乎热榜",
@@ -49,15 +49,15 @@
             "id": "zhihu_5"
           },
           {
-            "title": "GitHub Copilot、Cursor、CodeX 与Claude Code，我究竟要为谁付费？",
-            "url": "https://www.zhihu.com/questions/1963698332040929828",
+            "title": "为什么家庭烧烤烤不出香味，肉还很干？",
+            "url": "https://www.zhihu.com/questions/377930795",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_6"
           },
           {
-            "title": "为什么家庭烧烤烤不出香味，肉还很干？",
-            "url": "https://www.zhihu.com/questions/377930795",
+            "title": "GitHub Copilot、Cursor、CodeX 与Claude Code，我究竟要为谁付费？",
+            "url": "https://www.zhihu.com/questions/1963698332040929828",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_7"
@@ -260,15 +260,15 @@
             "id": "weibo_14"
           },
           {
-            "title": "澳洲遇难2名中国人深夜自驾赶工作",
-            "url": "https://s.weibo.com/weibo?q=澳洲遇难2名中国人深夜自驾赶工作",
+            "title": "丈夫意外去世女子求解锁手机",
+            "url": "https://s.weibo.com/weibo?q=丈夫意外去世女子求解锁手机",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_15"
           },
           {
-            "title": "丈夫意外去世女子求解锁手机",
-            "url": "https://s.weibo.com/weibo?q=丈夫意外去世女子求解锁手机",
+            "title": "手机涨价潮真的来了",
+            "url": "https://s.weibo.com/weibo?q=手机涨价潮真的来了",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_16"
@@ -279,6 +279,13 @@
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_17"
+          },
+          {
+            "title": "澳洲遇难2名中国人深夜自驾赶工作",
+            "url": "https://s.weibo.com/weibo?q=澳洲遇难2名中国人深夜自驾赶工作",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_18"
           }
         ]
       }
@@ -427,6 +434,140 @@
             "source": "GitHub",
             "time": "刚刚",
             "id": "github_19"
+          }
+        ]
+      }
+    },
+    "newsapi": {
+      "name": "NewsAPI",
+      "icon": "📰",
+      "categories": {
+        "科技新闻": [
+          {
+            "title": "Google Play Games for PC is getting more premium t",
+            "url": "https://arstechnica.com/gaming/2026/03/google-play-games-for-pc-is-getting-more-premium-titles-and-cross-buy-with-android/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_0"
+          },
+          {
+            "title": "Apple’s Foldable iPhone to Feature iPad-Like Inter",
+            "url": "https://www.bloomberg.com/news/articles/2026-03-11/apple-s-foldable-iphone-to-feature-ipad-like-interface-when-opened",
+            "source": "Bloomberg",
+            "time": "刚刚",
+            "id": "news_1"
+          },
+          {
+            "title": "macOS 26.4: Four new features are coming to your M",
+            "url": "https://9to5mac.com/2026/03/11/macos-26-4-four-new-features-are-coming-to-your-mac/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_2"
+          },
+          {
+            "title": "Microsoft says you should build next-gen Xbox game",
+            "url": "https://www.theverge.com/news/893196/microsoft-says-you-should-build-next-gen-xbox-games-by-building-them-for-pc",
+            "source": "The Verge",
+            "time": "刚刚",
+            "id": "news_3"
+          },
+          {
+            "title": "After Testing the Samsung Galaxy S26, I Found It F",
+            "url": "https://www.pcmag.com/reviews/samsung-galaxy-s26-ultra",
+            "source": "PCMag.com",
+            "time": "刚刚",
+            "id": "news_4"
+          },
+          {
+            "title": "Here are our PlayStation Plus Extra and Premium ga",
+            "url": "https://www.eurogamer.net/here-are-our-playstation-plus-extra-and-premium-games-for-march",
+            "source": "Eurogamer.net",
+            "time": "刚刚",
+            "id": "news_5"
+          },
+          {
+            "title": "MacBook Pro to Receive 'Major Upgrade' by Early Ne",
+            "url": "https://www.macrumors.com/2026/03/11/macbook-pro-major-upgrade/",
+            "source": "MacRumors",
+            "time": "刚刚",
+            "id": "news_6"
+          },
+          {
+            "title": "New iPhone 18 Pro leaks explore design details, di",
+            "url": "https://9to5mac.com/2026/03/11/new-iphone-18-pro-leaks-explore-design-details-dimensions-more/",
+            "source": "9to5Mac",
+            "time": "刚刚",
+            "id": "news_7"
+          },
+          {
+            "title": "Enjoy New Prizes and Newly Distributed Battle Boxe",
+            "url": "https://www.pokemon.com/us/pokemon-news/enjoy-new-prizes-and-newly-distributed-battle-boxes-at-play-pokemon-stores",
+            "source": "Pokemon.com",
+            "time": "刚刚",
+            "id": "news_8"
+          },
+          {
+            "title": "Valve Reveals Requirements for Steam Frame Game Ce",
+            "url": "https://www.roadtovr.com/steam-frame-game-certification-specs/",
+            "source": "Road to VR",
+            "time": "刚刚",
+            "id": "news_9"
+          },
+          {
+            "title": "MacBook Neo, iPhone 17e, iPad Air with M4, and mor",
+            "url": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/",
+            "source": "Apple Newsroom",
+            "time": "刚刚",
+            "id": "news_10"
+          },
+          {
+            "title": "Intel announces Core Ultra 270K Plus and 250K Plus",
+            "url": "https://www.theverge.com/tech/892838/intel-core-ultra-270k-plus-250k-plus-fastest-gaming-cpu-ever",
+            "source": "The Verge",
+            "time": "刚刚",
+            "id": "news_11"
+          },
+          {
+            "title": "That Doom-running, human brain cell-powered comput",
+            "url": "https://www.techspot.com/news/111642-doom-running-human-brain-cell-powered-computer-headed.html",
+            "source": "TechSpot",
+            "time": "刚刚",
+            "id": "news_12"
+          },
+          {
+            "title": "M5 MacBook Air Review (13-Inch, 2026): Go Big or G",
+            "url": "https://www.cnet.com/tech/computing/m5-macbook-air-review-13-inch-2026/",
+            "source": "CNET",
+            "time": "刚刚",
+            "id": "news_13"
+          },
+          {
+            "title": "Mario is Finally Getting a LEGO Minifigure, Launch",
+            "url": "https://www.ign.com/articles/mario-is-finally-getting-a-lego-minifigure-launching-in-sets-from-2027",
+            "source": "IGN",
+            "time": "刚刚",
+            "id": "news_14"
+          },
+          {
+            "title": "Microsoft Patches 84 Flaws in March Patch Tuesday,",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zNk0wRWsyN05YekdUSlBjQjJqdG4xUUFOVjNpcFFYUGpoUVJVUW8wTnlqWUhwVjBiZHB5bWJzekVvblpxRkFLSE5rUGhWWGRvYTB6aFVXb2ZEaGw2dG52VjZqZ203OHhsV2tPeVYtU2FJLXFwNDlVelFvalFhM0U?oc=5",
+            "source": "Google News",
+            "time": "刚刚",
+            "id": "news_15"
+          },
+          {
+            "title": "ASUS \"Panther Lake\" NUC 16 Pro launch price enters",
+            "url": "https://videocardz.com/newz/asus-panther-lake-nuc-16-pro-launch-price-enters-former-rog-nuc-territory",
+            "source": "Videocardz.com",
+            "time": "刚刚",
+            "id": "news_16"
+          },
+          {
+            "title": "This Garmin smartwatch is often overlooked, but no",
+            "url": "https://www.androidpolice.com/garmin-forerunner-165-usually-flies-under-the-radar-but-not-at-this-price/",
+            "source": "Android Police",
+            "time": "刚刚",
+            "id": "news_17"
           }
         ]
       }
