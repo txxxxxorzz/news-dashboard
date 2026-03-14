@@ -43,23 +43,104 @@ def format_time(time_str):
         return time_str
 
 def generate_ai_summary(platform_name, items):
-    """生成 AI 热点解读（简化版，实际可调用 AI API）"""
+    """生成 AI 热点解读 - 智能分类 + 趋势分析"""
     if not items:
         return "暂无数据"
     
-    # 提取关键词（简化版）
-    titles = [item.get('title', '') for item in items[:10]]
+    titles = [item.get('title', '') for item in items[:15] if item.get('title')]
+    if not titles:
+        return "暂无数据"
     
-    # 简单分析
-    keywords = []
-    for title in titles:
-        # 提取 2-4 字的可能关键词
-        if len(title) > 4:
-            keywords.append(title[:15])
+    # 关键词提取（按词频和位置）
+    keywords = extract_keywords(titles)
     
+    # 分类分析
+    categories = categorize_topics(titles)
+    
+    # 生成摘要
+    summary_parts = []
+    
+    # 1. 热点领域
+    if categories:
+        top_cats = list(categories.keys())[:3]
+        summary_parts.append("📊 聚焦：" + "、".join(top_cats))
+    
+    # 2. 关键词
     if keywords:
-        return f"🔥 热门：{' | '.join(keywords[:5])}"
-    return "正在更新中..."
+        summary_parts.append("🔑 热词：" + "、".join(keywords[:5]))
+    
+    # 3. 趋势洞察
+    trend = analyze_trend(titles, platform_name)
+    if trend:
+        summary_parts.append(trend)
+    
+    if summary_parts:
+        return " ".join(summary_parts)
+    return "🔥 热门更新中..."
+
+def extract_keywords(titles, top_n=8):
+    """提取高频关键词"""
+    # 常见停用词
+    stopwords = {'的', '了', '在', '是', '我', '有', '和', '就', '不', '人', '都', '一', '一个', 
+                 '上', '也', '很', '到', '说', '要', '去', '你', '会', '着', '没有', '看', '好',
+                 '自己', '这', '那', '他', '她', '它', '们', '这个', '那个', '可以', '能', '让',
+                 '但', '而', '如', '何', '为什么', '吗', '呢', '吧', '啊', '呀', '哦', '嗯'}
+    
+    # 简单分词（按常见词组切分）
+    word_freq = {}
+    for title in titles:
+        # 提取可能的关键词（2-6 字）
+        for i in range(len(title) - 1):
+            for j in range(i + 2, min(i + 7, len(title) + 1)):
+                word = title[i:j]
+                # 跳过停用词和纯标点
+                if word in stopwords or not word.strip() or all(c in '，。！？；：""''、' for c in word):
+                    continue
+                # 优先保留完整词组
+                if word not in word_freq:
+                    word_freq[word] = 0
+                word_freq[word] += 1
+    
+    # 按频率排序，优先选短词（更可能是关键词）
+    sorted_words = sorted(word_freq.items(), key=lambda x: (-x[1], len(x[0])))
+    return [word for word, _ in sorted_words[:top_n]]
+
+def categorize_topics(titles):
+    """简单分类话题"""
+    categories = {
+        "社会民生": ["政策", "建议", "委员", "代表", "社保", "医疗", "教育", "住房", "就业"],
+        "科技互联网": ["AI", "互联网", "科技", "手机", "App", "软件", "系统", "芯片", "5G"],
+        "娱乐八卦": ["明星", "演员", "歌手", "电影", "电视剧", "综艺", "演唱会", "离婚", "恋情"],
+        "国际时事": ["美国", "伊朗", "以色列", "俄罗斯", "乌克兰", "国际", "外交", "战争", "冲突"],
+        "财经经济": ["股市", "基金", "房价", "经济", "金融", "银行", "投资", "理财", "消费"],
+        "体育竞技": ["NBA", "足球", "篮球", "比赛", "冠军", "运动员", "奥运", "世界杯"],
+        "生活健康": ["健康", "养生", "减肥", "美食", "旅游", "天气", "疫情", "疫苗"],
+    }
+    
+    result = {}
+    for title in titles:
+        for cat, keywords in categories.items():
+            for kw in keywords:
+                if kw.lower() in title.lower():
+                    result[cat] = result.get(cat, 0) + 1
+                    break
+    
+    # 按热度排序
+    return dict(sorted(result.items(), key=lambda x: -x[1]))
+
+def analyze_trend(titles, platform_name):
+    """分析趋势"""
+    # 检测是否有重大事件
+    urgency_words = ["突发", "重磅", "刚刚", "确认", "宣布", "正式", "首次", "历史"]
+    
+    urgent_count = sum(1 for t in titles if any(w in t for w in urgency_words))
+    
+    if urgent_count >= 2:
+        return "⚡ 多条突发新闻"
+    elif urgent_count == 1:
+        return "⚡ 有突发动态"
+    
+    return None
 
 def aggregate_to_platforms(data):
     """转换为前端需要的 platforms 格式"""
@@ -145,6 +226,27 @@ def aggregate_to_platforms(data):
                         "id": f"douyin_{i}"
                     }
                     for i, item in enumerate(douyin_items[:20])
+                ]
+            }
+        }
+    
+    # 处理快手数据
+    kuaishou_items = data.get("data", {}).get("kuaishou", [])
+    if kuaishou_items:
+        platforms["kuaishou"] = {
+            "name": "快手热榜",
+            "icon": "📹",
+            "aiSummary": generate_ai_summary("快手", kuaishou_items),
+            "categories": {
+                "热榜": [
+                    {
+                        "title": item.get("title", "")[:50],
+                        "url": item.get("url", "#"),
+                        "source": "快手",
+                        "time": format_time(data.get("updateTime", "")),
+                        "id": f"kuaishou_{i}"
+                    }
+                    for i, item in enumerate(kuaishou_items[:20])
                 ]
             }
         }

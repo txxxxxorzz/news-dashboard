@@ -300,6 +300,42 @@ def fetch_xiaohongshu_hot():
         print(f"⚠ 小红书获取失败：{e}")
         return []
 
+def fetch_kuaishou_hot():
+    """获取快手热榜 - 使用第三方 API"""
+    try:
+        urls = [
+            "https://api.qqsuu.cn/api/dm-kuaishou",
+            "https://api.pearktrue.cn/api/kuaishou"
+        ]
+        for url in urls:
+            try:
+                response = requests.get(url, timeout=8)
+                response.raise_for_status()
+                data = response.json()
+                
+                items = []
+                word_list = data.get('data', []) or data.get('result', [])
+                for item in word_list[:20]:
+                    title = item.get('title', '') or item.get('word', '') or item.get('name', '')
+                    if title:
+                        items.append({
+                            "title": title[:60],
+                            "url": item.get('url', f"https://www.kuaishou.com/search/video?searchKey={title}"),
+                            "hot": f"🔥 {item.get('num', item.get('hot', 0))}",
+                            "source": "快手"
+                        })
+                if items:
+                    print(f"✓ 快手热榜：{len(items)} 条")
+                    return items
+            except:
+                continue
+        
+        print("⚠ 快手暂无可用数据源")
+        return []
+    except Exception as e:
+        print(f"⚠ 快手获取失败：{e}")
+        return []
+
 def main():
     print(f"\n🚀 开始获取新闻数据 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
@@ -308,6 +344,7 @@ def main():
         "weibo": fetch_weibo_hot(),
         "bilibili": fetch_bilibili_hot(),
         "douyin": fetch_douyin_hot(),
+        "kuaishou": fetch_kuaishou_hot(),
         "xiaohongshu": fetch_xiaohongshu_hot(),
         "github": fetch_github_trending(),
         "news": fetch_news_api()
@@ -321,6 +358,7 @@ def main():
             "weibo": len(all_news["weibo"]),
             "bilibili": len(all_news["bilibili"]),
             "douyin": len(all_news["douyin"]),
+            "kuaishou": len(all_news["kuaishou"]),
             "xiaohongshu": len(all_news["xiaohongshu"]),
             "github": len(all_news["github"]),
             "news": len(all_news["news"])
