@@ -94,17 +94,17 @@ def call_dashscope_ai(platform_name, titles):
 
     headers = {
         'Authorization': f'Bearer {DASHSCOPE_API_KEY}',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'X-DashScope-WorkSpace': 'standard'
     }
     
+    # 阿里云百炼 API 格式（新版）
     payload = {
         'model': 'qwen-turbo',
         'input': {
             'messages': [
-                {
-                    'role': 'user',
-                    'content': prompt
-                }
+                {'role': 'system', 'content': '你是热点新闻分析师，擅长总结热点话题。'},
+                {'role': 'user', 'content': prompt}
             ]
         },
         'parameters': {
@@ -113,9 +113,17 @@ def call_dashscope_ai(platform_name, titles):
         }
     }
     
-    response = requests.post(DASHSCOPE_API_URL, headers=headers, json=payload, timeout=10)
-    response.raise_for_status()
+    print(f"📡 正在调用 AI API...")
+    response = requests.post(DASHSCOPE_API_URL, headers=headers, json=payload, timeout=15)
+    
+    # 详细错误信息
+    if response.status_code != 200:
+        print(f"❌ API 返回错误：{response.status_code}")
+        print(f"响应内容：{response.text[:200]}")
+        response.raise_for_status()
+    
     result = response.json()
+    print(f"✅ API 调用成功")
     
     # 提取 AI 生成的内容
     content = result.get('output', {}).get('text', '').strip()
