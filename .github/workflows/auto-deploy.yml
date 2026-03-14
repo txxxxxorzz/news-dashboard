@@ -32,7 +32,9 @@ jobs:
       run: |
         python scripts/news_fetcher.py
     
-    - name: Aggregate news
+    - name: Aggregate news with AI summary
+      env:
+        DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
       run: |
         python scripts/aggregate_news.py
     

@@ -2,11 +2,17 @@
 """
 新闻数据聚合脚本
 将获取的新闻数据整理为前端需要的格式
+支持 AI 智能摘要生成
 """
 
 import json
 import os
+import requests
 from datetime import datetime
+
+# 阿里云百炼 API 配置
+DASHSCOPE_API_KEY = os.environ.get('DASHSCOPE_API_KEY', '')
+DASHSCOPE_API_URL = 'https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation'
 
 # 输入输出目录
 SCRIPT_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -43,7 +49,7 @@ def format_time(time_str):
         return time_str
 
 def generate_ai_summary(platform_name, items):
-    """生成 AI 热点解读 - 智能分类 + 趋势分析"""
+    """生成 AI 热点解读 - 调用阿里云百炼 API"""
     if not items:
         return "暂无数据"
     
@@ -51,62 +57,120 @@ def generate_ai_summary(platform_name, items):
     if not titles:
         return "暂无数据"
     
-    # 关键词提取（按词频和位置）
+    # 如果有 API Key，调用真实 AI
+    if DASHSCOPE_API_KEY:
+        try:
+            return call_dashscope_ai(platform_name, titles)
+        except Exception as e:
+            print(f"⚠ AI 调用失败：{e}，降级到规则版")
+    
+    # 降级到规则版
+    return generate_rule_based_summary(platform_name, titles)
+
+def call_dashscope_ai(platform_name, titles):
+    """调用阿里云百炼 API 生成摘要"""
+    # 构建提示词
+    titles_text = "\n".join([f"{i+1}. {t}" for i, t in enumerate(titles)])
+    
+    prompt = f"""你是热点新闻分析师。请根据以下{platform_name}热榜标题，生成一段 60-80 字的智能摘要。
+
+【热榜标题】
+{titles_text}
+
+【要求】
+1. 提炼 2-3 个核心话题领域
+2. 指出最值得关注的 1-2 个热点
+3. 语言简洁、有洞察力
+4. 不要简单罗列标题
+5. 输出格式：先说整体趋势，再说具体热点
+
+【示例】
+今日知乎聚焦科技与民生话题。AI 技术突破引发热议，多部门回应民生痛点成焦点。建议类问题占比显著，用户关注政策落地与实际解决方案。
+
+【你的分析】"""
+
+    headers = {
+        'Authorization': f'Bearer {DASHSCOPE_API_KEY}',
+        'Content-Type': 'application/json'
+    }
+    
+    payload = {
+        'model': 'qwen-turbo',
+        'input': {
+            'messages': [
+                {
+                    'role': 'user',
+                    'content': prompt
+                }
+            ]
+        },
+        'parameters': {
+            'max_tokens': 150,
+            'temperature': 0.7
+        }
+    }
+    
+    response = requests.post(DASHSCOPE_API_URL, headers=headers, json=payload, timeout=10)
+    response.raise_for_status()
+    result = response.json()
+    
+    # 提取 AI 生成的内容
+    content = result.get('output', {}).get('text', '').strip()
+    
+    # 清理输出（去掉"你的分析"等前缀）
+    if '【你的分析】' in content:
+        content = content.split('【你的分析】')[-1].strip()
+    
+    # 添加 emoji 前缀
+    if content:
+        return f"💡 {content}"
+    
+    return "🔥 热点更新中..."
+
+def generate_rule_based_summary(platform_name, titles):
+    """规则版摘要（降级方案）"""
+    # 关键词提取
     keywords = extract_keywords(titles)
     
     # 分类分析
     categories = categorize_topics(titles)
     
-    # 生成摘要
     summary_parts = []
     
-    # 1. 热点领域
     if categories:
         top_cats = list(categories.keys())[:3]
         summary_parts.append("📊 聚焦：" + "、".join(top_cats))
     
-    # 2. 关键词
     if keywords:
         summary_parts.append("🔑 热词：" + "、".join(keywords[:5]))
-    
-    # 3. 趋势洞察
-    trend = analyze_trend(titles, platform_name)
-    if trend:
-        summary_parts.append(trend)
     
     if summary_parts:
         return " ".join(summary_parts)
     return "🔥 热门更新中..."
 
 def extract_keywords(titles, top_n=8):
-    """提取高频关键词"""
-    # 常见停用词
+    """提取高频关键词（规则版）"""
     stopwords = {'的', '了', '在', '是', '我', '有', '和', '就', '不', '人', '都', '一', '一个', 
                  '上', '也', '很', '到', '说', '要', '去', '你', '会', '着', '没有', '看', '好',
                  '自己', '这', '那', '他', '她', '它', '们', '这个', '那个', '可以', '能', '让',
                  '但', '而', '如', '何', '为什么', '吗', '呢', '吧', '啊', '呀', '哦', '嗯'}
     
-    # 简单分词（按常见词组切分）
     word_freq = {}
     for title in titles:
-        # 提取可能的关键词（2-6 字）
         for i in range(len(title) - 1):
             for j in range(i + 2, min(i + 7, len(title) + 1)):
                 word = title[i:j]
-                # 跳过停用词和纯标点
                 if word in stopwords or not word.strip() or all(c in '，。！？；：""''、' for c in word):
                     continue
-                # 优先保留完整词组
                 if word not in word_freq:
                     word_freq[word] = 0
                 word_freq[word] += 1
     
-    # 按频率排序，优先选短词（更可能是关键词）
     sorted_words = sorted(word_freq.items(), key=lambda x: (-x[1], len(x[0])))
     return [word for word, _ in sorted_words[:top_n]]
 
 def categorize_topics(titles):
-    """简单分类话题"""
+    """简单分类话题（规则版）"""
     categories = {
         "社会民生": ["政策", "建议", "委员", "代表", "社保", "医疗", "教育", "住房", "就业"],
         "科技互联网": ["AI", "互联网", "科技", "手机", "App", "软件", "系统", "芯片", "5G"],
@@ -125,22 +189,7 @@ def categorize_topics(titles):
                     result[cat] = result.get(cat, 0) + 1
                     break
     
-    # 按热度排序
     return dict(sorted(result.items(), key=lambda x: -x[1]))
-
-def analyze_trend(titles, platform_name):
-    """分析趋势"""
-    # 检测是否有重大事件
-    urgency_words = ["突发", "重磅", "刚刚", "确认", "宣布", "正式", "首次", "历史"]
-    
-    urgent_count = sum(1 for t in titles if any(w in t for w in urgency_words))
-    
-    if urgent_count >= 2:
-        return "⚡ 多条突发新闻"
-    elif urgent_count == 1:
-        return "⚡ 有突发动态"
-    
-    return None
 
 def aggregate_to_platforms(data):
     """转换为前端需要的 platforms 格式"""
