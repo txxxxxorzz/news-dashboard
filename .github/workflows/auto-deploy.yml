@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 */6 * * *'  # 每 6 小时运行一次（UTC 时间）
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   update-data:
