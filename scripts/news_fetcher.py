@@ -229,16 +229,18 @@ def fetch_douyin_hot():
 def fetch_douyin_backup():
     """抖音备用方案 - 使用第三方 API"""
     try:
-        # 尝试多个备用 API
+        # 尝试多个备用 API（按稳定性排序）
         urls = [
-            "https://api.pearktrue.cn/api/douyin",
+            "https://api.qqsuu.cn/api/dm-douyin",
             "https://api.vvhan.com/api/hotlist/douyin",
-            "https://api.qqsuu.cn/api/dm-douyin"
+            "https://api.pearktrue.cn/api/douyin",
+            "https://api.wapi.cn/api/douyin-hot"
         ]
         for url in urls:
             try:
                 response = requests.get(url, timeout=8)
-                response.raise_for_status()
+                if response.status_code != 200:
+                    continue
                 data = response.json()
                 
                 items = []
@@ -259,6 +261,7 @@ def fetch_douyin_backup():
             except:
                 continue
         
+        print("⚠ 抖音所有备用 API 均不可用")
         return []
     except Exception as e:
         print(f"⚠ 抖音备用失败：{e}")
@@ -267,14 +270,17 @@ def fetch_douyin_backup():
 def fetch_xiaohongshu_hot():
     """获取小红书热门 - 使用第三方 API"""
     try:
+        # 按稳定性排序
         urls = [
             "https://api.qqsuu.cn/api/dm-xhs",
-            "https://api.pearktrue.cn/api/xiaohongshu"
+            "https://api.pearktrue.cn/api/xiaohongshu",
+            "https://api.vvhan.com/api/hotlist/xiaohongshu"
         ]
         for url in urls:
             try:
                 response = requests.get(url, timeout=8)
-                response.raise_for_status()
+                if response.status_code != 200:
+                    continue
                 data = response.json()
                 
                 items = []
@@ -284,7 +290,7 @@ def fetch_xiaohongshu_hot():
                     if title:
                         items.append({
                             "title": title[:60],
-                            "url": item.get('url', '#'),
+                            "url": item.get('url', f"https://www.xiaohongshu.com/search/result?keyword={title}"),
                             "hot": f"🔥 {item.get('num', item.get('hot', 0))}",
                             "source": "小红书"
                         })
@@ -303,14 +309,17 @@ def fetch_xiaohongshu_hot():
 def fetch_kuaishou_hot():
     """获取快手热榜 - 使用第三方 API"""
     try:
+        # 按稳定性排序
         urls = [
             "https://api.qqsuu.cn/api/dm-kuaishou",
-            "https://api.pearktrue.cn/api/kuaishou"
+            "https://api.pearktrue.cn/api/kuaishou",
+            "https://api.vvhan.com/api/hotlist/kuaishou"
         ]
         for url in urls:
             try:
                 response = requests.get(url, timeout=8)
-                response.raise_for_status()
+                if response.status_code != 200:
+                    continue
                 data = response.json()
                 
                 items = []
