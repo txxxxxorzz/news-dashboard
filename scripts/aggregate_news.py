@@ -57,12 +57,15 @@ def generate_ai_summary(platform_name, items):
     if not titles:
         return "暂无数据"
     
-    # 如果有 API Key，调用真实 AI
+    # 调试：打印 API Key 状态
     if DASHSCOPE_API_KEY:
+        print(f"✅ API Key 已配置（长度：{len(DASHSCOPE_API_KEY)}）")
         try:
             return call_dashscope_ai(platform_name, titles)
         except Exception as e:
             print(f"⚠ AI 调用失败：{e}，降级到规则版")
+    else:
+        print("⚠ 未配置 DASHSCOPE_API_KEY，使用规则版摘要")
     
     # 降级到规则版
     return generate_rule_based_summary(platform_name, titles)
