@@ -1,10 +1,10 @@
 {
-  "updateTime": "2026-03-13 18:32:04",
+  "updateTime": "2026-03-14 01:21:52",
   "platforms": {
     "zhihu": {
       "name": "知乎热榜",
       "icon": "📚",
-      "aiSummary": "🔥 热门：委员称去机场比坐飞机时间还长， | 如果 0.01 纳米的一根线瞬 | 为什么每天下班回家明明很累，却 | 挥动一根无限长的杆子，那最远端 | 美国防部被曝「龙虾门」，花费 ",
+      "aiSummary": "🔥 热门：委员称去机场比坐飞机时间还长， | 芝加哥商品交易所（CME）警告 | 冻干草莓测出 20 多种农药， | 专家建议公积金直接充抵首付、还 | 请问《马大帅》里那句台词「马叔",
       "categories": {
         "热榜": [
           {
@@ -15,57 +15,57 @@
             "id": "zhihu_0"
           },
           {
-            "title": "如果 0.01 纳米的一根线瞬间切割人体，可造成什么伤害？",
-            "url": "https://www.zhihu.com/questions/647127634",
+            "title": "芝加哥商品交易所（CME）警告称美国干预「石油期货」将是一场「史诗般的灾难」，如何理解？",
+            "url": "https://www.zhihu.com/questions/2015703710299357982",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_1"
           },
           {
-            "title": "为什么每天下班回家明明很累，却就是不想洗漱睡觉，只想瘫着玩手机？",
-            "url": "https://www.zhihu.com/questions/2012581981322441725",
+            "title": "冻干草莓测出 20 多种农药，却因国标没有其限量标准无法立案，暴露出哪些问题？长期吃会有哪些危害？",
+            "url": "https://www.zhihu.com/questions/2015735266590029506",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_2"
           },
           {
-            "title": "挥动一根无限长的杆子，那最远端会不会超越光速？",
-            "url": "https://www.zhihu.com/questions/11898570140",
+            "title": "专家建议公积金直接充抵首付、还房贷，怎样看待这一方案？可行性有多大？",
+            "url": "https://www.zhihu.com/questions/2015604631984710945",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_3"
           },
           {
-            "title": "美国防部被曝「龙虾门」，花费 1500 万吃牛排、690 万吃龙虾尾，反映出哪些问题？将带来多大影响",
-            "url": "https://www.zhihu.com/questions/2015559616147247488",
+            "title": "请问《马大帅》里那句台词「马叔你坐下吃」的笑点在哪里？",
+            "url": "https://www.zhihu.com/questions/667620034",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_4"
           },
           {
-            "title": "伊朗称一架美军加油机被击落，美方称并非由敌方火力或友军误击造成，具体是怎么回事？目前伊朗防空能力如何",
-            "url": "https://www.zhihu.com/questions/2015691380442232507",
+            "title": "美以袭击伊朗进入第 15 天，当前局势如何？有哪些值得关注的信息？",
+            "url": "https://www.zhihu.com/questions/2015827663185474295",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_5"
           },
           {
-            "title": "苏桂浙粤多地学校取消家长护学岗，你支持取消护学岗吗？校园安全该由谁来保障？",
-            "url": "https://www.zhihu.com/questions/2015722813051331582",
+            "title": "如何看待刘备的扮演者孙彦军几次三番说不想演刘备，想演曹操？",
+            "url": "https://www.zhihu.com/questions/2006786082667262060",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_6"
           },
           {
-            "title": "有什么有意思的大学名称缩写？",
-            "url": "https://www.zhihu.com/questions/40430730",
+            "title": "自然资源部38号文提出，原则不再增加用于经营性房地产开发的新增建设用地，能否对新房价格起到支撑？",
+            "url": "https://www.zhihu.com/questions/2015440913112003383",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_7"
           },
           {
-            "title": "有哪些演员因为演活了一个角色，成为了这个角色在观众心目中的化身？",
-            "url": "https://www.zhihu.com/questions/397103732",
+            "title": "你是在哪一刻感觉到AI时代真的到来了？",
+            "url": "https://www.zhihu.com/questions/6607255010",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_8"
@@ -78,29 +78,29 @@
             "id": "zhihu_9"
           },
           {
-            "title": "DeepSeek V4 为什么还不发布？",
-            "url": "https://www.zhihu.com/questions/2014783631814580088",
+            "title": "伊朗称袭击「林肯」号航母已致其失去作战能力，返回美国，是真的吗？「林肯」号航母对战局影响有多大？",
+            "url": "https://www.zhihu.com/questions/2015763956870903371",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_10"
           },
           {
-            "title": "为什么胖东来在郑州开店后，于东来会将40亿资产分配给员工？",
-            "url": "https://www.zhihu.com/questions/2015717714509997034",
+            "title": "DeepSeek V4 为什么还不发布？",
+            "url": "https://www.zhihu.com/questions/2014783631814580088",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_11"
           },
           {
-            "title": "《英雄联盟》海斗敌方的「当心小蛋糕」我提醒队友不要捡，他破防故意吃个不停，我说的到底有错吗？",
-            "url": "https://www.zhihu.com/questions/2015448707470944108",
+            "title": "4 名儿童躺在公路上扮演减速带，路过司机回忆此景感到后怕，这反映了安全教育的哪些缺失？",
+            "url": "https://www.zhihu.com/questions/2015006537005933951",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_12"
           },
           {
-            "title": "4 名儿童躺在公路上扮演减速带，路过司机回忆此景感到后怕，这反映了安全教育的哪些缺失？",
-            "url": "https://www.zhihu.com/questions/2015006537005933951",
+            "title": "为什么胖东来在郑州开店后，于东来会将40亿资产分配给员工？",
+            "url": "https://www.zhihu.com/questions/2015717714509997034",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_13"
@@ -113,8 +113,8 @@
             "id": "zhihu_14"
           },
           {
-            "title": "苹果公司宣布降低中国 App Store 佣金率，由 30% 改为 25%，会带来哪些影响？",
-            "url": "https://www.zhihu.com/questions/2015716459670626412",
+            "title": "周杰伦将连发一周新歌短片，3 月 24 日举办发片记者会，对此你有何期待？怎样看待这种宣传形式？",
+            "url": "https://www.zhihu.com/questions/2015006477379658661",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_15"
@@ -127,22 +127,22 @@
             "id": "zhihu_16"
           },
           {
-            "title": "美以袭击伊朗进入第 14 天，当前局势如何？有哪些值得关注的信息？",
-            "url": "https://www.zhihu.com/questions/2015107630499136848",
+            "title": "为什么很多很多当年学习不好中年人声称如果老师当年狠一点，自己就能学好？",
+            "url": "https://www.zhihu.com/questions/1964959689465923108",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_17"
           },
           {
-            "title": "伊朗称袭击「林肯」号航母已致其失去作战能力，返回美国，是真的吗？「林肯」号航母对战局影响有多大？",
-            "url": "https://www.zhihu.com/questions/2015763956870903371",
+            "title": "为什么领导在跳槽时会愿意带着能力一般的员工一起呢？",
+            "url": "https://www.zhihu.com/questions/2012059722681955032",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_18"
           },
           {
-            "title": "芝加哥商品交易所（CME）警告称美国干预「石油期货」将是一场「史诗般的灾难」，如何理解？",
-            "url": "https://www.zhihu.com/questions/2015703710299357982",
+            "title": "美国防部被曝「龙虾门」，花费 1500 万吃牛排、690 万吃龙虾尾，反映出哪些问题？将带来多大影响",
+            "url": "https://www.zhihu.com/questions/2015559616147247488",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_19"
@@ -153,96 +153,96 @@
     "weibo": {
       "name": "微博热搜",
       "icon": "🔴",
-      "aiSummary": "🔥 热门：花6毛骑共享单车每月被扣费17 | 春日里的中国经济密码 | 白玉兰视后大年 | 田曦薇心疼樊长玉哭了 | 美军坠毁加油机上6人全死",
+      "aiSummary": "🔥 热门：弟弟的脐带血15年后救了哥哥 | 财务离职总经理转错公账23万余 | 国家网络安全通报中心通报Ope | 杨幂赵丽颖 白玉兰 | 十五五向你发出奋斗邀请",
       "categories": {
         "热搜": [
           {
-            "title": "呼啸山庄",
-            "url": "https://s.weibo.com/weibo?q=呼啸山庄",
+            "title": "弟弟的脐带血15年后救了哥哥",
+            "url": "https://s.weibo.com/weibo?q=弟弟的脐带血15年后救了哥哥",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_0"
           },
           {
-            "title": "花6毛骑共享单车每月被扣费173元",
-            "url": "https://s.weibo.com/weibo?q=花6毛骑共享单车每月被扣费173元",
+            "title": "财务离职总经理转错公账23万余元",
+            "url": "https://s.weibo.com/weibo?q=财务离职总经理转错公账23万余元",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_1"
           },
           {
-            "title": "春日里的中国经济密码",
-            "url": "https://s.weibo.com/weibo?q=春日里的中国经济密码",
+            "title": "国家网络安全通报中心通报OpenClaw风险",
+            "url": "https://s.weibo.com/weibo?q=国家网络安全通报中心通报OpenClaw风险",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_2"
           },
           {
-            "title": "白玉兰视后大年",
-            "url": "https://s.weibo.com/weibo?q=白玉兰视后大年",
+            "title": "杨幂赵丽颖 白玉兰",
+            "url": "https://s.weibo.com/weibo?q=杨幂赵丽颖 白玉兰",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_3"
           },
           {
-            "title": "田曦薇心疼樊长玉哭了",
-            "url": "https://s.weibo.com/weibo?q=田曦薇心疼樊长玉哭了",
+            "title": "十五五向你发出奋斗邀请",
+            "url": "https://s.weibo.com/weibo?q=十五五向你发出奋斗邀请",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_4"
           },
           {
-            "title": "美军坠毁加油机上6人全死",
-            "url": "https://s.weibo.com/weibo?q=美军坠毁加油机上6人全死",
+            "title": "如果一个人的朋友圈特别正常",
+            "url": "https://s.weibo.com/weibo?q=如果一个人的朋友圈特别正常",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_5"
           },
           {
-            "title": "多人反映贷款逾期被银行划走养老金",
-            "url": "https://s.weibo.com/weibo?q=多人反映贷款逾期被银行划走养老金",
+            "title": "美军对伊石油出口枢纽猛烈空袭",
+            "url": "https://s.weibo.com/weibo?q=美军对伊石油出口枢纽猛烈空袭",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_6"
           },
           {
-            "title": "专家建议建立新就业群体专项年金",
-            "url": "https://s.weibo.com/weibo?q=专家建议建立新就业群体专项年金",
+            "title": "省考",
+            "url": "https://s.weibo.com/weibo?q=省考",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_7"
           },
           {
-            "title": "跟着人大代表来做操全身都通了",
-            "url": "https://s.weibo.com/weibo?q=跟着人大代表来做操全身都通了",
+            "title": "建议完善特殊工作环境劳动者权益",
+            "url": "https://s.weibo.com/weibo?q=建议完善特殊工作环境劳动者权益",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_8"
           },
           {
-            "title": "男子维权被12315工作人员嘲讽",
-            "url": "https://s.weibo.com/weibo?q=男子维权被12315工作人员嘲讽",
+            "title": "世界目光聚焦中国两会新举措",
+            "url": "https://s.weibo.com/weibo?q=世界目光聚焦中国两会新举措",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_9"
           },
           {
-            "title": "张颂文硬气回应AI冲击影视行业",
-            "url": "https://s.weibo.com/weibo?q=张颂文硬气回应AI冲击影视行业",
+            "title": "伊朗30枚超重导弹袭击以色列",
+            "url": "https://s.weibo.com/weibo?q=伊朗30枚超重导弹袭击以色列",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_10"
           },
           {
-            "title": "九尾 这导播是真恶心",
-            "url": "https://s.weibo.com/weibo?q=九尾 这导播是真恶心",
+            "title": "第一次见女明星打出溜滑出场",
+            "url": "https://s.weibo.com/weibo?q=第一次见女明星打出溜滑出场",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_11"
           },
           {
-            "title": "男一男二男三男四男五",
-            "url": "https://s.weibo.com/weibo?q=男一男二男三男四男五",
+            "title": "男子维权被12315工作人员嘲讽",
+            "url": "https://s.weibo.com/weibo?q=男子维权被12315工作人员嘲讽",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_12"
@@ -255,8 +255,8 @@
             "id": "weibo_13"
           },
           {
-            "title": "以色列总统称特朗普攻击国家主权",
-            "url": "https://s.weibo.com/weibo?q=以色列总统称特朗普攻击国家主权",
+            "title": "两米二老外深圳就医视频火出圈",
+            "url": "https://s.weibo.com/weibo?q=两米二老外深圳就医视频火出圈",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_14"
@@ -269,32 +269,18 @@
             "id": "weibo_15"
           },
           {
-            "title": "父亲回应女婴出生2天被爷爷丢弃厕所",
-            "url": "https://s.weibo.com/weibo?q=父亲回应女婴出生2天被爷爷丢弃厕所",
+            "title": "白玉兰视后大年",
+            "url": "https://s.weibo.com/weibo?q=白玉兰视后大年",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_16"
           },
           {
-            "title": "穿了二十厘米勉强一米七",
-            "url": "https://s.weibo.com/weibo?q=穿了二十厘米勉强一米七",
+            "title": "男一男二男三男四男五",
+            "url": "https://s.weibo.com/weibo?q=男一男二男三男四男五",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_17"
-          },
-          {
-            "title": "胖东来",
-            "url": "https://s.weibo.com/weibo?q=胖东来",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_18"
-          },
-          {
-            "title": "手机支付一定要设置3道锁",
-            "url": "https://s.weibo.com/weibo?q=手机支付一定要设置3道锁",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_19"
           }
         ]
       }
@@ -453,142 +439,142 @@
       "categories": {
         "科技新闻": [
           {
+            "title": "Xbox Shares New Hardware Details For Next Generati",
+            "url": "https://gameinformer.com/2026/03/12/xbox-shares-new-hardware-details-for-next-generation-console-project-helix",
+            "source": "Gameinformer.com",
+            "time": "刚刚",
+            "id": "news_0"
+          },
+          {
+            "title": "Gemini can now order your lunch as Android app con",
+            "url": "http://9to5google.com/2026/03/12/gemini-android-app-automation-galaxy-s26-rollout/",
+            "source": "9to5google.com",
+            "time": "刚刚",
+            "id": "news_1"
+          },
+          {
+            "title": "New M5 MacBook Air and MacBook Pro Are Already on ",
+            "url": "https://www.ign.com/articles/new-m5-macbook-air-pro-on-sale-amazon",
+            "source": "IGN",
+            "time": "刚刚",
+            "id": "news_2"
+          },
+          {
+            "title": "AI Chatbots Are Making People All Think the Same, ",
+            "url": "https://www.cnet.com/science/ai-chatbots-are-making-people-all-think-the-same/",
+            "source": "CNET",
+            "time": "刚刚",
+            "id": "news_3"
+          },
+          {
+            "title": "Tinder tries to lure people back to online dating ",
+            "url": "https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/",
+            "source": "TechCrunch",
+            "time": "刚刚",
+            "id": "news_4"
+          },
+          {
+            "title": "Combat Tips for Bravely Default Flying Fairy HD Re",
+            "url": "https://news.xbox.com/en-us/2026/03/12/bravely-default-remaster-tips/",
+            "source": "Xbox.com",
+            "time": "刚刚",
+            "id": "news_5"
+          },
+          {
+            "title": "Silent Hill 2 Remake passes 5m copies sold, so Kon",
+            "url": "https://www.eurogamer.net/silent-hill-2-remake-passes-5m-copies-sold-sale",
+            "source": "Eurogamer.net",
+            "time": "刚刚",
+            "id": "news_6"
+          },
+          {
+            "title": "Apple’s MacBook Neo makes repairs easier and cheap",
+            "url": "https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/",
+            "source": "Ars Technica",
+            "time": "刚刚",
+            "id": "news_7"
+          },
+          {
             "title": "Anthropic’s Claude AI can respond with charts, dia",
             "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
             "source": "The Verge",
             "time": "刚刚",
-            "id": "news_0"
+            "id": "news_8"
+          },
+          {
+            "title": "PC will overtake console revenue by 2028, says New",
+            "url": "https://www.gamesindustry.biz/pc-will-overtake-console-revenue-by-2028-says-newzoo",
+            "source": "GamesIndustry.biz",
+            "time": "刚刚",
+            "id": "news_9"
+          },
+          {
+            "title": "Google starts selling 3-in-1 charging dock for Pix",
+            "url": "http://9to5google.com/2026/03/12/google-pixel-3-in-1-charging-dock-watch-4-buds/",
+            "source": "9to5google.com",
+            "time": "刚刚",
+            "id": "news_10"
+          },
+          {
+            "title": "Alexa+ gets a new 'adults only' personality option",
+            "url": "https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/",
+            "source": "TechCrunch",
+            "time": "刚刚",
+            "id": "news_11"
+          },
+          {
+            "title": "Free Play Days – Diablo IV, Killing Floor 3, Bassm",
+            "url": "https://news.xbox.com/en-us/2026/03/12/free-play-days-03-12-2026/",
+            "source": "Xbox.com",
+            "time": "刚刚",
+            "id": "news_12"
           },
           {
             "title": "Get Triple Rewards and Bonus GTA$ During the GTA O",
             "url": "https://www.rockstargames.com/newswire/article/39a83k188812ka/get-triple-rewards-and-bonus-gta-during-the-gta-online-community-serie",
             "source": "Rockstargames.com",
             "time": "刚刚",
-            "id": "news_1"
+            "id": "news_13"
           },
           {
-            "title": "MacBook Neo Teardown: Modular Ports, Glue-Less Bat",
-            "url": "https://www.macrumors.com/2026/03/12/macbook-neo-six-minute-teardown-zero-tape/",
-            "source": "MacRumors",
+            "title": "Time to pay your last respects to Microsoft's \"Thi",
+            "url": "https://www.eurogamer.net/time-to-pay-your-last-respects-to-microsofts-this-is-an-xbox-campaign-as-it-appears-to-have-been-killed-off",
+            "source": "Eurogamer.net",
             "time": "刚刚",
-            "id": "news_2"
+            "id": "news_14"
+          },
+          {
+            "title": "Gran Turismo 7 Update 1.68 Now Available: New Cars",
+            "url": "https://www.gtplanet.net/gran-turismo-7-update-168-available-20260312/",
+            "source": "GTPlanet",
+            "time": "刚刚",
+            "id": "news_15"
           },
           {
             "title": "Apple to celebrate 50 years of thinking different ",
             "url": "https://www.apple.com/newsroom/2026/03/apple-to-celebrate-50-years-of-thinking-different/",
             "source": "Apple Newsroom",
             "time": "刚刚",
-            "id": "news_3"
-          },
-          {
-            "title": "PlayStation Plus Announces 9 New Free Games For Ma",
-            "url": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-extra-march-2026-games-921444-20260311",
-            "source": "Gamingbible.com",
-            "time": "刚刚",
-            "id": "news_4"
-          },
-          {
-            "title": "After a successful launch weekend, Pokopia has bec",
-            "url": "https://www.eurogamer.net/after-a-successful-launch-weekend-pokopia-has-become-one-of-the-best-selling-pokemon-spin-offs-ever",
-            "source": "Eurogamer.net",
-            "time": "刚刚",
-            "id": "news_5"
-          },
-          {
-            "title": "Google Maps gets its biggest navigation redesign i",
-            "url": "https://arstechnica.com/gadgets/2026/03/google-maps-gets-its-biggest-navigation-redesign-in-a-decade-plus-more-ai/",
-            "source": "Ars Technica",
-            "time": "刚刚",
-            "id": "news_6"
-          },
-          {
-            "title": "Hasbro's CEO Says 'Magic: The Gathering' and 'Dung",
-            "url": "https://gizmodo.com/wizards-of-the-coast-dnd-magic-no-ai-2000732646",
-            "source": "Gizmodo.com",
-            "time": "刚刚",
-            "id": "news_7"
-          },
-          {
-            "title": "Poll: Has PS5's Dynamic Pricing Debacle Changed Yo",
-            "url": "https://www.pushsquare.com/features/poll-has-ps5s-dynamic-pricing-debacle-changed-your-relationship-with-the-ps-store-at-all",
-            "source": "Push Square",
-            "time": "刚刚",
-            "id": "news_8"
-          },
-          {
-            "title": "Woman tests how Home Depot workers treat her in a ",
-            "url": "https://dailydot.com/pretty-privilege-home-depot-outfit-comparisons/",
-            "source": "The Daily Dot",
-            "time": "刚刚",
-            "id": "news_9"
-          },
-          {
-            "title": "Crimson Desert launch trailer - Gematsu",
-            "url": "https://www.gematsu.com/2026/03/crimson-desert-launch-trailer",
-            "source": "Gematsu",
-            "time": "刚刚",
-            "id": "news_10"
-          },
-          {
-            "title": "AI may never be as cheap as it is today - Axios",
-            "url": "https://www.axios.com/2026/03/12/ai-models-costs-ipo-pricing",
-            "source": "Axios",
-            "time": "刚刚",
-            "id": "news_11"
-          },
-          {
-            "title": "Games with loot boxes will be rated PEGI 16 from J",
-            "url": "https://www.gamesindustry.biz/games-with-loot-boxes-will-be-rated-pegi-16-from-june-as-part-of-sweeping-changes-to-the-age-rating-system",
-            "source": "GamesIndustry.biz",
-            "time": "刚刚",
-            "id": "news_12"
-          },
-          {
-            "title": "ASUS adds three 27-inch QHD ROG Strix OLED gaming ",
-            "url": "https://videocardz.com/newz/asus-adds-three-27-inch-qhd-rog-strix-oled-gaming-monitors-starting-at-599",
-            "source": "Videocardz.com",
-            "time": "刚刚",
-            "id": "news_13"
-          },
-          {
-            "title": "Security researchers broke into a MediaTek-powered",
-            "url": "https://www.androidauthority.com/mediatek-chip-vulnerability-3648555/",
-            "source": "Android Authority",
-            "time": "刚刚",
-            "id": "news_14"
-          },
-          {
-            "title": "Xbox’s Project Helix, Sony’s PS6, and the PlayStat",
-            "url": "https://wccftech.com/playstation-6-xbox-project-helix-playstation-handheld-still-targeting-2027-release-rumor/",
-            "source": "Wccftech",
-            "time": "刚刚",
-            "id": "news_15"
-          },
-          {
-            "title": "AI can 'same-ify' human expression — can some brai",
-            "url": "https://www.nature.com/articles/d41586-026-00781-9",
-            "source": "Nature.com",
-            "time": "刚刚",
             "id": "news_16"
           },
           {
-            "title": "Nanophotonic waveguide chip-to-world beam scanning",
-            "url": "https://www.nature.com/articles/s41586-025-10038-6",
-            "source": "Nature.com",
+            "title": "Google Maps Gets Chatty With a New Gemini-Powered ",
+            "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/",
+            "source": "Wired",
             "time": "刚刚",
             "id": "news_17"
           },
           {
-            "title": "Snapshots of the dynamic basis of NTSR1 G protein ",
-            "url": "https://www.nature.com/articles/s41586-026-10120-7",
-            "source": "Nature.com",
+            "title": "One UI 8.5 beta update now rolling out to the Gala",
+            "url": "https://www.sammobile.com/news/galaxy-z-fold-7-gets-one-ui-8-5-beta/",
+            "source": "SamMobile",
             "time": "刚刚",
             "id": "news_18"
           },
           {
-            "title": "MacBook Air With OLED Display is Still Years Away ",
-            "url": "https://www.macrumors.com/2026/03/11/macbook-air-oled-display-2028/",
-            "source": "MacRumors",
+            "title": "Video Games With Loot Boxes Will Now Have a 16 Age",
+            "url": "https://www.ign.com/articles/video-games-with-loot-boxes-will-now-have-a-16-age-rating-across-europe-as-part-of-huge-pegi-shakeup",
+            "source": "IGN",
             "time": "刚刚",
             "id": "news_19"
           }
