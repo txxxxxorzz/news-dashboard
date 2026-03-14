@@ -1,10 +1,10 @@
 {
-  "updateTime": "2026-03-14 08:37:34",
+  "updateTime": "2026-03-14 08:50:00",
   "platforms": {
     "zhihu": {
       "name": "知乎热榜",
       "icon": "📚",
-      "aiSummary": "🔥 热门：中美将举行第 6 轮经贸磋商， | 专家建议公积金直接充抵首付、还 | 美团王兴称管理层要努力减少「登 | 冻干草莓测出 20 多种农药， | 西安不倒翁小姐姐宣布离职做自媒",
+      "aiSummary": "📊 聚焦：社会民生、国际时事、体育竞技 🔑 热词：哪些、什么、如何、登味、」， ⚡ 有突发动态",
       "categories": {
         "热榜": [
           {
@@ -15,15 +15,15 @@
             "id": "zhihu_0"
           },
           {
-            "title": "专家建议公积金直接充抵首付、还房贷，怎样看待这一方案？可行性有多大？",
-            "url": "https://www.zhihu.com/questions/2015604631984710945",
+            "title": "美团王兴称管理层要努力减少「登味」，以后别再叫他「兴哥」，登味到底是什么味？王兴为何此时提「去登味」",
+            "url": "https://www.zhihu.com/questions/2015832710560620560",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_1"
           },
           {
-            "title": "美团王兴称管理层要努力减少「登味」，以后别再叫他「兴哥」，登味到底是什么味？王兴为何此时提「去登味」",
-            "url": "https://www.zhihu.com/questions/2015832710560620560",
+            "title": "专家建议公积金直接充抵首付、还房贷，怎样看待这一方案？可行性有多大？",
+            "url": "https://www.zhihu.com/questions/2015604631984710945",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_2"
@@ -127,8 +127,8 @@
             "id": "zhihu_16"
           },
           {
-            "title": "如何看待刘备的扮演者孙彦军几次三番说不想演刘备，想演曹操？",
-            "url": "https://www.zhihu.com/questions/2006786082667262060",
+            "title": "十五五要新建新型研究型大学，超常规布局人工智能等急需学科，加强基础学科等本硕博衔接培养，释放哪些信号",
+            "url": "https://www.zhihu.com/questions/2015916136630281791",
             "source": "知乎",
             "time": "刚刚",
             "id": "zhihu_17"
@@ -153,26 +153,26 @@
     "weibo": {
       "name": "微博热搜",
       "icon": "🔴",
-      "aiSummary": "🔥 热门：315调查眼镜到底有多暴利 | 央视315晚会点了4个领域 | 50秒解码美丽中国 | 云南花香蓝莓 | 韩军称朝鲜发射10余枚弹道导弹",
+      "aiSummary": "📊 聚焦：体育竞技 🔑 热词：31、15、315、央视、视3",
       "categories": {
         "热搜": [
-          {
-            "title": "315调查眼镜到底有多暴利",
-            "url": "https://s.weibo.com/weibo?q=315调查眼镜到底有多暴利",
-            "source": "微博",
-            "time": "刚刚",
-            "id": "weibo_0"
-          },
           {
             "title": "央视315晚会点了4个领域",
             "url": "https://s.weibo.com/weibo?q=央视315晚会点了4个领域",
             "source": "微博",
             "time": "刚刚",
+            "id": "weibo_0"
+          },
+          {
+            "title": "315调查眼镜到底有多暴利",
+            "url": "https://s.weibo.com/weibo?q=315调查眼镜到底有多暴利",
+            "source": "微博",
+            "time": "刚刚",
             "id": "weibo_1"
           },
           {
-            "title": "50秒解码美丽中国",
-            "url": "https://s.weibo.com/weibo?q=50秒解码美丽中国",
+            "title": "十五五规划纲要解读来了",
+            "url": "https://s.weibo.com/weibo?q=十五五规划纲要解读来了",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_2"
@@ -206,8 +206,8 @@
             "id": "weibo_6"
           },
           {
-            "title": "中国女足直通巴西世界杯",
-            "url": "https://s.weibo.com/weibo?q=中国女足直通巴西世界杯",
+            "title": "省考",
+            "url": "https://s.weibo.com/weibo?q=省考",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_7"
@@ -220,8 +220,8 @@
             "id": "weibo_8"
           },
           {
-            "title": "饭馆用的塑封碗筷脏到你想吐",
-            "url": "https://s.weibo.com/weibo?q=饭馆用的塑封碗筷脏到你想吐",
+            "title": "你的外卖是谁在背后抬价",
+            "url": "https://s.weibo.com/weibo?q=你的外卖是谁在背后抬价",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_9"
@@ -234,43 +234,43 @@
             "id": "weibo_10"
           },
           {
-            "title": "马思纯发文",
-            "url": "https://s.weibo.com/weibo?q=马思纯发文",
+            "title": "富二代为情人落户雇人假结婚",
+            "url": "https://s.weibo.com/weibo?q=富二代为情人落户雇人假结婚",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_11"
           },
           {
-            "title": "富二代为情人落户雇人假结婚",
-            "url": "https://s.weibo.com/weibo?q=富二代为情人落户雇人假结婚",
+            "title": "WB对战JDG",
+            "url": "https://s.weibo.com/weibo?q=WB对战JDG",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_12"
           },
           {
-            "title": "谢征收到了和离书",
-            "url": "https://s.weibo.com/weibo?q=谢征收到了和离书",
+            "title": "中国女足直通巴西世界杯",
+            "url": "https://s.weibo.com/weibo?q=中国女足直通巴西世界杯",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_13"
           },
           {
-            "title": "美国凭啥从委内瑞拉搬走1亿美元黄金",
-            "url": "https://s.weibo.com/weibo?q=美国凭啥从委内瑞拉搬走1亿美元黄金",
+            "title": "马思纯发文",
+            "url": "https://s.weibo.com/weibo?q=马思纯发文",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_14"
           },
           {
-            "title": "王一博给品牌发title",
-            "url": "https://s.weibo.com/weibo?q=王一博给品牌发title",
+            "title": "饭馆用的塑封碗筷脏到你想吐",
+            "url": "https://s.weibo.com/weibo?q=饭馆用的塑封碗筷脏到你想吐",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_15"
           },
           {
-            "title": "田曦薇张凌赫经纪人依旧纯恨中",
-            "url": "https://s.weibo.com/weibo?q=田曦薇张凌赫经纪人依旧纯恨中",
+            "title": "孙颖莎反手发球首秀",
+            "url": "https://s.weibo.com/weibo?q=孙颖莎反手发球首秀",
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_16"
@@ -281,6 +281,13 @@
             "source": "微博",
             "time": "刚刚",
             "id": "weibo_17"
+          },
+          {
+            "title": "男子买皮卡收到超大老头乐愁坏妻子",
+            "url": "https://s.weibo.com/weibo?q=男子买皮卡收到超大老头乐愁坏妻子",
+            "source": "微博",
+            "time": "刚刚",
+            "id": "weibo_18"
           }
         ]
       }
