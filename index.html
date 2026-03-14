@@ -168,6 +168,16 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 15px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        /* 手机端改为单列 */
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
         }
 
         .loading {
@@ -190,7 +200,10 @@
         }
 
         .platform-section {
-            margin-bottom: 30px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 15px;
+            border: 1px solid var(--border);
         }
 
         .platform-header {
@@ -213,15 +226,8 @@
 
         .categories-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 15px;
-        }
-
-        /* 手机端改为单列 */
-        @media (max-width: 768px) {
-            .categories-grid {
-                grid-template-columns: 1fr;
-            }
         }
 
         .category-card {
