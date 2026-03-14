@@ -213,13 +213,14 @@
 
         .categories-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
         }
 
-        @media (min-width: 1200px) {
+        /* 手机端改为单列 */
+        @media (max-width: 768px) {
             .categories-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
             }
         }
 
